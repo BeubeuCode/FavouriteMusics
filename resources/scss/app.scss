@@ -1,6 +1,12 @@
+$slightRed: #ff6366;
+
 * {
     padding: 0;
     margin: 0;
+}
+
+body {
+    background-color: #dae0e6;
 }
 
 h1 {
@@ -23,4 +29,13 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#primaryContainer {
+    margin-top: 2%;
+}
+
+.btn-colored {
+    background-color: $slightRed;
+    color: white;
 }
