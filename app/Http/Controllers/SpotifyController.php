@@ -29,7 +29,8 @@ class SpotifyController extends Controller
         );
     }
 
-    public function connectAndSearch($query = 'Sabaton', $type = 'artist') : Reponse {
+    //TODO check params content and return errors accordingly
+    public function connectAndSearch($query = 'Sabaton', $type = 'artist') {
         if(isset($_GET['query']) && isset($_GET['type'])) {
             $query = $_GET['query'];
             $type = $_GET['type'];

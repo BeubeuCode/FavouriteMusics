@@ -15,11 +15,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ec5d3b8-b506-4fa9-94e2-2db72db4d003" name="Default Changelist" comment="added Spotify API and searched for sabaton">
+    <list default="true" id="7ec5d3b8-b506-4fa9-94e2-2db72db4d003" name="Default Changelist" comment="connectAndSearch method : done !">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SpotifyController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SpotifyController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +172,8 @@
       <option name="presentableId" value="Default" />
       <updated>1601452670776</updated>
       <workItem from="1601452673198" duration="5179000" />
-      <workItem from="1601467373045" duration="8258000" />
+      <workItem from="1601467373045" duration="8358000" />
+      <workItem from="1601479816437" duration="246000" />
     </task>
     <task id="LOCAL-00001" summary="margin bottom on button">
       <created>1601467639602</created>
@@ -197,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601473707486</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="connectAndSearch method : done !">
+      <created>1601476702807</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1601476702807</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,12 +219,14 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="margin bottom on button" />
     <MESSAGE value="changed title tag and styling" />
     <MESSAGE value="added Spotify API and searched for sabaton" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Spotify API and searched for sabaton" />
+    <MESSAGE value="connectAndSearch method : done !" />
+    <option name="LAST_COMMIT_MESSAGE" value="connectAndSearch method : done !" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2714" y="443" key="NewPhpFileDialog" timestamp="1601471786565">
