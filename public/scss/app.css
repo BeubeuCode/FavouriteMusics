@@ -12,3 +12,14 @@ p {
   font-family: "Roboto", sans-serif;
 }
 
+.container .svgLanding {
+  width: 70%;
+  height: auto;
+}
+
+.centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+

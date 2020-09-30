@@ -12,6 +12,9 @@
         <link rel="stylesheet" href="/scss/app.css">
     </head>
     <body>
+        <nav class="navbar navbar-light bg-light">
+            <span class="navbar-brand mb-0 h1">FavMus</span>
+        </nav>
         <div class="container">
             @yield('content')
         </div>
