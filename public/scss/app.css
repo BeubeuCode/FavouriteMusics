@@ -31,6 +31,10 @@ p {
   margin-top: 2%;
 }
 
+.btn {
+  margin-bottom: 1px;
+}
+
 .btn-colored {
   background-color: #ff6366;
   color: white;
