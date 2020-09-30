@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 use Illuminate\Support\Facades\Response;
 use SpotifyWebAPI;
+use SpotifyWebAPI\SpotifyWebAPIException;
+use Illuminate\Http\Request;
 
 class SpotifyController extends Controller
 {
@@ -27,10 +29,14 @@ class SpotifyController extends Controller
         );
     }
 
-    public function connectAndSearch() {
-        //dummy
+    public function connectAndSearch($query = 'Sabaton', $type = 'artist') : Reponse {
+        if(isset($_GET['query']) && isset($_GET['type'])) {
+            $query = $_GET['query'];
+            $type = $_GET['type'];
+        }
+
         $token = $this->connect();
-        $results = $this->searchResults('Sabaton', 'artist', $token);
+        $results = $this->searchResults($query, $type, $token);
         return Response::json($results);
     }
 }

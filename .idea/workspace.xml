@@ -15,13 +15,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ec5d3b8-b506-4fa9-94e2-2db72db4d003" name="Default Changelist" comment="changed title tag and styling">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/SpotifyController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/FavouriteMusics.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FavouriteMusics.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="7ec5d3b8-b506-4fa9-94e2-2db72db4d003" name="Default Changelist" comment="added Spotify API and searched for sabaton">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SpotifyController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SpotifyController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -177,7 +174,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601452670776</updated>
       <workItem from="1601452673198" duration="5179000" />
-      <workItem from="1601467373045" duration="5192000" />
+      <workItem from="1601467373045" duration="8258000" />
     </task>
     <task id="LOCAL-00001" summary="margin bottom on button">
       <created>1601467639602</created>
@@ -193,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601468180820</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added Spotify API and searched for sabaton">
+      <created>1601473707486</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601473707486</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,17 +217,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="margin bottom on button" />
     <MESSAGE value="changed title tag and styling" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed title tag and styling" />
+    <MESSAGE value="added Spotify API and searched for sabaton" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Spotify API and searched for sabaton" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2714" y="443" key="NewPhpFileDialog" timestamp="1601471786565">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2714" y="443" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601471786565" />
-    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1601473128208">
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1601475584993">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601467660957" />
-    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601473128208" />
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601475584993" />
   </component>
 </project>

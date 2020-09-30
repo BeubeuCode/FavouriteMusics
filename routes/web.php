@@ -19,3 +19,6 @@ Route::get('/', function () {
 });
 
 Route::get('/callback', [SpotifyController::class, 'connectAndSearch']);
+
+Route::get('/search/{type}/{query}', [SpotifyController::class, 'connectAndSearch']);
+
