@@ -17,9 +17,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7ec5d3b8-b506-4fa9-94e2-2db72db4d003" name="Default Changelist" comment="connectAndSearch method : done !">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/scss/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/scss/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/scss/app.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/template.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/template.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,7 +174,7 @@
       <updated>1601452670776</updated>
       <workItem from="1601452673198" duration="5179000" />
       <workItem from="1601467373045" duration="8358000" />
-      <workItem from="1601479816437" duration="1250000" />
+      <workItem from="1601479816437" duration="2302000" />
     </task>
     <task id="LOCAL-00001" summary="margin bottom on button">
       <created>1601467639602</created>
@@ -212,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601480086972</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="home page modifications + styling">
+      <created>1601481108117</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1601481108117</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,7 +242,8 @@
     <MESSAGE value="added Spotify API and searched for sabaton" />
     <MESSAGE value="connectAndSearch method : done !" />
     <MESSAGE value="BEGONE, TYPE ANOTATION" />
-    <option name="LAST_COMMIT_MESSAGE" value="BEGONE, TYPE ANOTATION" />
+    <MESSAGE value="home page modifications + styling" />
+    <option name="LAST_COMMIT_MESSAGE" value="home page modifications + styling" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2714" y="443" key="NewPhpFileDialog" timestamp="1601471786565">
