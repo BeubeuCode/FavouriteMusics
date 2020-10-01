@@ -80,7 +80,13 @@ class SpotifyController extends Controller
         return Response::json($api->getTrack($trackID));
     }
 
+    /**
+     * @param string $artistID
+     * @return JsonResponse
+     */
     public function getArtist(string $artistID) {
-
+        $api = $this->createApiSession($this->connect());
+        $api->getArtist($artistID);
+        return Response::json();
     }
 }
