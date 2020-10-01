@@ -3,8 +3,8 @@
 namespace App\Http\Controllers;
 use Illuminate\Support\Facades\Response;
 use SpotifyWebAPI;
-use SpotifyWebAPI\SpotifyWebAPIException;
-use Illuminate\Http\Request;
+use Exception;
+use Throwable;
 
 class SpotifyController extends Controller
 {
@@ -31,13 +31,26 @@ class SpotifyController extends Controller
         );
     }
 
-    //TODO check params content and return errors accordingly
+    /**
+     * @param string $query from $_GET
+     * @param string $type from $_GET
+     * @return \Illuminate\Http\JsonResponse|object
+     */
     public function connectAndSearch($query = 'Sabaton', $type = 'artist') {
         if(isset($_GET['query']) && isset($_GET['type'])) {
             $query = $_GET['query'];
             $type = $_GET['type'];
         }
+        $type = strtolower($type);
 
+        try {
+            throw_if(!in_array($type, $this->VALID_QUERY_TYPES), new Exception('Invalid Query Type'));
+        } catch (Throwable $e) {
+            return Response::json(array(
+                'message' => 'incorrect query type',
+                'code' => 422
+            ))->setStatusCode(422); //unprocessable entity
+        }
         $token = $this->connect();
         $results = $this->searchResults($query, $type, $token);
         return Response::json($results);
