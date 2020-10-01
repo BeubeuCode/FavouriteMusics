@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -16,9 +19,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ec5d3b8-b506-4fa9-94e2-2db72db4d003" name="Default Changelist" comment="connectAndSearch method : done !">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/LoginController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_10_01_134850_create_user_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/scss/app.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/template.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/template.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,16 +153,21 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1iDqmJSct7I00UFSAtevvrb7wpp" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -174,7 +186,10 @@
       <updated>1601452670776</updated>
       <workItem from="1601452673198" duration="5179000" />
       <workItem from="1601467373045" duration="8358000" />
-      <workItem from="1601479816437" duration="2302000" />
+      <workItem from="1601479816437" duration="3524000" />
+      <workItem from="1601538551639" duration="6299000" />
+      <workItem from="1601552703703" duration="297000" />
+      <workItem from="1601558045880" duration="2331000" />
     </task>
     <task id="LOCAL-00001" summary="margin bottom on button">
       <created>1601467639602</created>
@@ -218,7 +233,49 @@
       <option name="project" value="LOCAL" />
       <updated>1601481108117</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="title format">
+      <created>1601482134152</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1601482134152</updated>
+    </task>
+    <task id="LOCAL-00008" summary="valid query types in SpotifyController.php">
+      <created>1601538765098</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1601538765098</updated>
+    </task>
+    <task id="LOCAL-00009" summary="query type check">
+      <created>1601540404947</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1601540404947</updated>
+    </task>
+    <task id="LOCAL-00010" summary="getTrack method in SpotifyController.php">
+      <created>1601541588379</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1601541588379</updated>
+    </task>
+    <task id="LOCAL-00011" summary="created createApiSession method, refactored it into methods">
+      <created>1601542130404</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1601542130404</updated>
+    </task>
+    <task id="LOCAL-00012" summary="getArtist method">
+      <created>1601542638125</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1601542638125</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,23 +294,43 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="margin bottom on button" />
     <MESSAGE value="changed title tag and styling" />
     <MESSAGE value="added Spotify API and searched for sabaton" />
     <MESSAGE value="connectAndSearch method : done !" />
     <MESSAGE value="BEGONE, TYPE ANOTATION" />
     <MESSAGE value="home page modifications + styling" />
-    <option name="LAST_COMMIT_MESSAGE" value="home page modifications + styling" />
+    <MESSAGE value="title format" />
+    <MESSAGE value="valid query types in SpotifyController.php" />
+    <MESSAGE value="query type check" />
+    <MESSAGE value="getTrack method in SpotifyController.php" />
+    <MESSAGE value="created createApiSession method, refactored it into methods" />
+    <MESSAGE value="getArtist method" />
+    <option name="LAST_COMMIT_MESSAGE" value="getArtist method" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="586" y="198" key="#Inspections" timestamp="1601544139605">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="586" y="198" key="#Inspections/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601544139605" />
     <state x="2714" y="443" key="NewPhpFileDialog" timestamp="1601471786565">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2714" y="443" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601471786565" />
-    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1601475584993">
+    <state x="787" y="222" key="RollbackChangesDialog" timestamp="1601544482807">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="787" y="222" key="RollbackChangesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601544482807" />
+    <state x="1982" y="138" key="SettingsEditor" timestamp="1601544293269">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601467660957" />
-    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601475584993" />
+    <state x="1982" y="138" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601544293269" />
+    <state x="651" y="205" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601541710764" />
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1601560203299">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601552943957" />
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601560203299" />
   </component>
 </project>

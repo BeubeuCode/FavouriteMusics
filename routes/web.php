@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\SpotifyController;
 
@@ -20,5 +21,7 @@ Route::get('/', function () {
 
 Route::get('/callback', [SpotifyController::class, 'connectAndSearch']);
 
-Route::get('/search/{type}/{query}', [SpotifyController::class, 'connectAndSearch']);
-
+Route::get('/logout', function() {
+    Auth::logout();
+    return redirect('/');
+});
