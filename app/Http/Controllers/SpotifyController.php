@@ -30,7 +30,7 @@ class SpotifyController extends Controller
      * @param $token
      * @return SpotifyWebAPI\SpotifyWebAPI
      */
-    public function createApiSession($token) {
+    private function createApiSession($token) {
         $api = new SpotifyWebAPI\SpotifyWebAPI();
         $api->setAccessToken($token);
         return $api;
