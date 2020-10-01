@@ -1,5 +1,5 @@
 @extends('template')
 @section('title') Register @endsection
 @section('content')
-    <form action=""></form>
+    <form action="" method="POST"></form>
 @endsection
