@@ -8,6 +8,8 @@ use Illuminate\Http\Request;
 
 class SpotifyController extends Controller
 {
+
+    private $VALID_QUERY_TYPES = ['artist', 'track', 'album'];
     private $CLIENT_ID = '7d857c333a7644b1871988b1a6d75a81';
     private $CLIENT_SECRET = 'f347df3dd9084b158c5a0b8f0c0021ea';
 
