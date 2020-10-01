@@ -11,4 +11,12 @@ class LoginController extends Controller
         $creds = $request->only('email', 'password');
         if(Auth::attempt($creds)) { return redirect('/'); }
     }
+
+    public function registerForm() {
+        return view('register');
+    }
+
+    public function loginForm() {
+        return view('login');
+    }
 }
