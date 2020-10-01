@@ -7,6 +7,12 @@ use SpotifyWebAPI;
 use Exception;
 use Throwable;
 
+/**
+ * Class SpotifyController
+ * @package App\Http\Controllers
+ * @description Classe pour les différentes méthodes liées à Spotify. Les méthodes publique renvoient un JSON.
+ * Elle sont traitées par le middleware API, les séparant clairement des méthodes liées au front end.
+ */
 class SpotifyController extends Controller
 {
 
