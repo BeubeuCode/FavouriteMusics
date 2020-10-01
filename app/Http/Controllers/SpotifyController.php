@@ -14,6 +14,9 @@ class SpotifyController extends Controller
     private $CLIENT_ID = '7d857c333a7644b1871988b1a6d75a81';
     private $CLIENT_SECRET = 'f347df3dd9084b158c5a0b8f0c0021ea';
 
+    /**
+     * @return string
+     */
     public function connect() {
         $session = new SpotifyWebAPI\Session(
             $this->CLIENT_ID, //id
@@ -23,9 +26,18 @@ class SpotifyController extends Controller
         return $session->getAccessToken();
     }
 
-    public function searchResults($query, $type, $token) {
+    /**
+     * @param $token
+     * @return SpotifyWebAPI\SpotifyWebAPI
+     */
+    public function createApiSession($token) {
         $api = new SpotifyWebAPI\SpotifyWebAPI();
         $api->setAccessToken($token);
+        return $api;
+    }
+
+    public function searchResults($query, $type, $token) {
+        $api = $this->createApiSession($token);
         return $api->search(
             $query,
             $type
@@ -57,11 +69,18 @@ class SpotifyController extends Controller
         return Response::json($results);
     }
 
+    /**
+     * @param string $trackID
+     * @return JsonResponse
+     */
     public function getTrack(string $trackID){
         $token = $this->connect();
-        $api = new SpotifyWebApi\SpotifyWebAPI();
-        $api->setAccessToken($token);
+        $api = $this->createApiSession($token);
         $api->getTrack($trackID);
         return Response::json($api->getTrack($trackID));
+    }
+
+    public function getArtist(string $artistID) {
+
     }
 }
