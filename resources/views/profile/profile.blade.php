@@ -1,6 +1,6 @@
 @extends('template')
-@section('title') Se connecter @endsection
+@section('title') Mon profil @endsection
 @section('content')
-    <h1 class="title">Profile</h1>
+    <h1 class="title">Profil</h1>
     <p class="paragraph">Hello, user !</p>
 @endsection
