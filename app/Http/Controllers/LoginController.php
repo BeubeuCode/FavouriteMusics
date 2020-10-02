@@ -46,4 +46,9 @@ class LoginController extends Controller
     public function loginForm() {
         return view('login');
     }
+
+    public function profile() {
+        $user = Auth::user();
+        return Response::view('profile.profile', compact('user'));
+    }
 }
