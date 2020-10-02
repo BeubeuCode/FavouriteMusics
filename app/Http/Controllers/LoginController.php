@@ -14,8 +14,8 @@ class LoginController extends Controller
     public function authenticate(Request $request) {
 
         $creds = $request->only('email', 'password');
-        $creds['password'] = Hash::make($creds['password']);
         if(Auth::attempt($creds)) { return redirect('/account'); }
+        else { return Response('failed.'); }
     }
 
     public function createAccount(Request $request) {
@@ -36,6 +36,7 @@ class LoginController extends Controller
             $error_message = 'Erreur lors de la création du compte, veuillez ré-essayer.';
             return Response::view('register', compact('error_message'));
         }
+        return Response::redirectTo('/login');
     }
 
     public function registerForm() {

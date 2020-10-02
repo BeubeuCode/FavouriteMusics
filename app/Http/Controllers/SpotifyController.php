@@ -5,7 +5,6 @@ use Illuminate\Http\JsonResponse;
 use Illuminate\Support\Facades\Response;
 use SpotifyWebAPI;
 use Exception;
-use Throwable;
 
 /**
  * Class SpotifyController

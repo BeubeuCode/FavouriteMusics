@@ -31,3 +31,7 @@ Route::get('/register',  [LoginController::class, 'registerForm']);
 Route::get('/login',  [LoginController::class, 'loginForm']);
 // LOGIN/REGISTER ACTIONS //
 Route::post('/registeraccount', [LoginController::class, 'createAccount']);
+Route::post('/loginaccount', [LoginController::class,  'authenticate']);
+Route::get('/account', function() {
+    return response('connected !');
+});

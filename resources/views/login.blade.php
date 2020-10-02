@@ -2,7 +2,7 @@
 @section('title') Se connecter @endsection
 @section('content')
     <h2 class="title">Se connecter</h2>
-    <form action="" method="POST">
+    <form action="/loginaccount" method="POST">
         @csrf
         <div class="form-group">
             <label for="email" class="paragraph">Email</label>
@@ -10,7 +10,7 @@
         </div>
         <div class="form-group">
             <label for="password1" class="paragraph">Mot de passe</label>
-            <input class="form-control" type="password" name="password1" id="password1">
+            <input class="form-control" type="password" name="password" id="password">
         </div>
 
         <div class="form-group">
