@@ -19,6 +19,7 @@
         <div class="form-group">
             <label for="password2" class="paragraph">Confirmer le mot de passe</label>
             <input class="form-control" type="password" name="password2" id="password2">
+            <p class="text-muted" id="incorrectPasswordText" style="color: red !important; display: none;">Les mots de passe doivent correspondre !</p>
         </div>
         <div class="form-group">
             <input class="btn btn-colored" type="submit" value="S'inscrire">

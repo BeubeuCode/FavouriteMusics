@@ -1,13 +1,13 @@
 require('./bootstrap');
 
-firstField = document.getElementById("password1");
-secondField = document.getElementById('password2')
+let firstField = document.getElementById("password1");
+let secondField = document.getElementById('password2');
 
 function checkPasswordEquality() {
-    if(firstField.value() === secondField.value()) {
-        //c'est ok
+    if(firstField.value()!== secondField.value()) {
+        document.getElementById('incorrectPasswordText').style.display = 'block';
     } else {
-        //pas bon
+        document.getElementById('incorrectPasswordText').style.display = 'none';
     }
 }
 
