@@ -14,7 +14,8 @@ class LoginController extends Controller
     public function authenticate(Request $request) {
 
         $creds = $request->only('email', 'password');
-        if(Auth::attempt($creds)) { return redirect('/'); }
+        $creds['password'] = Hash::make($creds['password']);
+        if(Auth::attempt($creds)) { return redirect('/account'); }
     }
 
     public function createAccount(Request $request) {

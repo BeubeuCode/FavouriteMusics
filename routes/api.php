@@ -20,6 +20,10 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 Route::get('/search/{type}/{query}', [SpotifyController::class, 'connectAndSearch']);
-//request
-Route::get('/search/', [SpotifyController::class, 'connectAndSearch']);
+//requests
+Route::get('/search/', [SpotifyController::class, 'connectAndSearch']); //two get args
+// 'query' et 'type'
+Route::get('/track/{trackID}', [SpotifyController::class, 'getTrack']);
+Route::get('/artist/{artistID}', [SpotifyController::class, 'getArtist']);
+Route::get('/album/{albumID}', [SpotifyController::class, 'getAlbum']);
 
