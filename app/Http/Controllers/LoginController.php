@@ -8,6 +8,7 @@ use Illuminate\Support\Facades\Auth;
 use App\Models\User;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Response;
+use App\Models\LikedGenres;
 
 class LoginController extends Controller
 {
@@ -49,6 +50,7 @@ class LoginController extends Controller
 
     public function profile() {
         $user = Auth::user();
-        return Response::view('profile.profile', compact('user'));
+        $genres = LikedGenres::where('user_id', $user->id)->first();
+        return Response::view('profile.profile', compact(['user', 'genres']));
     }
 }
