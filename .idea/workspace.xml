@@ -19,13 +19,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ec5d3b8-b506-4fa9-94e2-2db72db4d003" name="Default Changelist" comment="connectAndSearch method : done !">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/LoginController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_10_01_134850_create_user_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/scss/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/template.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/template.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +36,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration">
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.3">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
       <path value="$PROJECT_DIR$/vendor/asm89/stack-cors" />
@@ -166,15 +163,26 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/artisan" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="PHP Script.laravel artisan serve">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
       <method v="2" />
     </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="artisan" scriptParameters="serve">
+      <method v="2" />
+    </configuration>
+    <configuration name="laravel artisan serve" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/artisan" scriptParameters="serve">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="PHP Script.laravel artisan serve" />
+      <item itemvalue="PHPUnit.phpunit.xml" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -189,7 +197,11 @@
       <workItem from="1601479816437" duration="3524000" />
       <workItem from="1601538551639" duration="6299000" />
       <workItem from="1601552703703" duration="297000" />
-      <workItem from="1601558045880" duration="2331000" />
+      <workItem from="1601558045880" duration="3457000" />
+      <workItem from="1601565038316" duration="1695000" />
+      <workItem from="1601580490013" duration="38000" />
+      <workItem from="1601629179826" duration="2748000" />
+      <workItem from="1601636008277" duration="674000" />
     </task>
     <task id="LOCAL-00001" summary="margin bottom on button">
       <created>1601467639602</created>
@@ -275,7 +287,56 @@
       <option name="project" value="LOCAL" />
       <updated>1601542638125</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="working towards login 👀">
+      <created>1601561151494</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1601561151494</updated>
+    </task>
+    <task id="LOCAL-00014" summary="form file createed">
+      <created>1601561524904</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1601561524904</updated>
+    </task>
+    <task id="LOCAL-00015" summary="post method">
+      <created>1601565073476</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1601565073477</updated>
+    </task>
+    <task id="LOCAL-00016" summary="FORMS ARE DONE !">
+      <created>1601566523828</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1601566523828</updated>
+    </task>
+    <task id="LOCAL-00017" summary="account creation works">
+      <created>1601631188099</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1601631188099</updated>
+    </task>
+    <task id="LOCAL-00018" summary="checking password equality, need actual code">
+      <created>1601631367699</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1601631367699</updated>
+    </task>
+    <task id="LOCAL-00019" summary="CHECKS">
+      <created>1601631907406</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1601631907406</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,30 +368,78 @@
     <MESSAGE value="getTrack method in SpotifyController.php" />
     <MESSAGE value="created createApiSession method, refactored it into methods" />
     <MESSAGE value="getArtist method" />
-    <option name="LAST_COMMIT_MESSAGE" value="getArtist method" />
+    <MESSAGE value="working towards login " />
+    <MESSAGE value="form file createed" />
+    <MESSAGE value="post method" />
+    <MESSAGE value="FORMS ARE DONE !" />
+    <MESSAGE value="account creation works" />
+    <MESSAGE value="checking password equality, need actual code" />
+    <MESSAGE value="CHECKS" />
+    <option name="LAST_COMMIT_MESSAGE" value="CHECKS" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="742" y="232" key="#CLI_Interpreters" timestamp="1601636469208">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="742" y="232" key="#CLI_Interpreters/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601636469208" />
     <state x="586" y="198" key="#Inspections" timestamp="1601544139605">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="586" y="198" key="#Inspections/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601544139605" />
-    <state x="2714" y="443" key="NewPhpFileDialog" timestamp="1601471786565">
+    <state x="667" y="201" key="#PHP" timestamp="1601636472367">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="667" y="201" key="#PHP/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601636472367" />
+    <state x="414" y="175" width="1092" height="766" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601636534290">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" width="1092" height="766" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601636534289" />
+    <state x="740" y="313" key="FileChooserDialogImpl" timestamp="1601636529949">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="313" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601636529949" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1601636627771">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601636627771" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1601636627771">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601636627771" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1601636627770">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601636627770" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1601636627771">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601636627771" />
+    <state x="2714" y="443" key="NewPhpFileDialog" timestamp="1601565788544">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2714" y="443" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601471786565" />
+    <state x="2714" y="443" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601565788544" />
     <state x="787" y="222" key="RollbackChangesDialog" timestamp="1601544482807">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="787" y="222" key="RollbackChangesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601544482807" />
-    <state x="1982" y="138" key="SettingsEditor" timestamp="1601544293269">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="651" y="205" key="SettingsEditor" timestamp="1601565053156">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1982" y="138" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601544293269" />
-    <state x="651" y="205" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601541710764" />
-    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1601560203299">
+    <state x="651" y="205" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601565053156" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1601580511873">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601552943957" />
-    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601560203299" />
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601580511873" />
+    <state x="464" y="246" key="Vcs.Push.Dialog.v2" timestamp="1601631919190">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="464" y="246" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601631919190" />
+    <state x="2384" y="246" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601566722582" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1601636569051">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601636569051" />
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601629381908" />
   </component>
 </project>

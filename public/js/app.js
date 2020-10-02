@@ -19332,6 +19332,20 @@ module.exports = function(module) {
 
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
+var firstField = document.getElementById("password1");
+var secondField = document.getElementById('password2');
+
+function checkPasswordEquality() {
+  if (firstField.value !== secondField.value) {
+    document.getElementById('incorrectPasswordText').style.display = 'block';
+  } else {
+    document.getElementById('incorrectPasswordText').style.display = 'none';
+  }
+}
+
+firstField.onchange = checkPasswordEquality;
+secondField.onchange = checkPasswordEquality;
+
 /***/ }),
 
 /***/ "./resources/js/bootstrap.js":
