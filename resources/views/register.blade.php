@@ -2,6 +2,9 @@
 @section('title') S'inscrire @endsection
 @section('content')
     <h2 class="title">Créer un compte</h2>
+    @if(isset($error_message))
+        <h3 class="paragraph" style="color:red;">{{ $error_message }}</h3>
+    @endif
     <form action="/registeraccount" method="POST">
         @csrf
         <div class="form-group">

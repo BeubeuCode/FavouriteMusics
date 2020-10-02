@@ -18,6 +18,12 @@ class LoginController extends Controller
     }
 
     public function createAccount(Request $request) {
+
+        if($request->password1 != $request->password2) {
+            $error_message = 'Les deux mots de passe doivent être identiques !';
+            return Response::view('register', compact('error_message'));
+        }
+
         $newUser = new User;
         $newUser->name = $request->username;
         $newUser->password = Hash::make($request->password1);
