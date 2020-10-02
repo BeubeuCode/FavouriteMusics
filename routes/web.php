@@ -29,4 +29,5 @@ Route::get('/logout', function() {
 
 Route::get('/register',  [LoginController::class, 'registerForm']);
 Route::get('/login',  [LoginController::class, 'loginForm']);
-
+// LOGIN/REGISTER ACTIONS //
+Route::post('/registeraccount', [LoginController::class, 'createAccount']);

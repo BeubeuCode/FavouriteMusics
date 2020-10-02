@@ -2,7 +2,7 @@
 @section('title') S'inscrire @endsection
 @section('content')
     <h2 class="title">Créer un compte</h2>
-    <form action="" method="POST">
+    <form action="/registeraccount" method="POST">
         @csrf
         <div class="form-group">
             <label for="email" class="paragraph">Email</label>
