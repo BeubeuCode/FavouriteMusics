@@ -32,7 +32,8 @@ class LoginController extends Controller
             $newUser->save();
         }
         catch (QueryException $exception) {
-            return response('Erreur lors de la création du compte.')->setStatusCode(500);
+            $error_message = 'Erreur lors de la création du compte, veuillez ré-essayer.';
+            return Response::view('register', compact('error_message'));
         }
     }
 
