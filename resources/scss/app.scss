@@ -37,6 +37,7 @@ body {
 
 .centered {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -59,4 +60,8 @@ body {
 
 .tilted {
     transform: rotate(-1deg);
+}
+
+.circleImage {
+    border-radius: 100%;
 }
