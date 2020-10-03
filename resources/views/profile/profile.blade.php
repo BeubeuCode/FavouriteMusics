@@ -31,12 +31,21 @@
 
         <div class="col-md-4">
             <h3 class="title">Musiques favorites</h3>
-            <p class="paragraph">Pas de musiques favorites !</p>
+            @if(isset($favsongs))
+                {{-- TODO faire le système de musiques favorites --}}
+            @else
+                <p>
+                    Aucune musique favorite... pour l'instant !
+                </p>
+            @endif
         </div>
     </div>
 
 
     <hr>
 
+
+    {{--
+    --}}
 
 @endsection
