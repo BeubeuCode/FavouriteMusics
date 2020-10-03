@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\SpotifyController;
 use App\Http\Controllers\LoginController;
-
+use App\Http\Controllers\ProfileController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -32,4 +32,4 @@ Route::get('/login',  [LoginController::class, 'loginForm']);
 // LOGIN/REGISTER ACTIONS //
 Route::post('/registeraccount', [LoginController::class, 'createAccount']);
 Route::post('/loginaccount', [LoginController::class,  'authenticate']);
-Route::get('/account', [LoginController::class, 'profile']);
+Route::get('/account', [ProfileController::class, 'showProfile']);
