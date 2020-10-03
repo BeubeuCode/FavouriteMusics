@@ -32,7 +32,13 @@
         <div class="col-md-4">
             <h3 class="title">Musiques favorites</h3>
             @if(isset($favsongs))
-                {{-- TODO faire le système de musiques favorites --}}
+                @foreach($favsongs as $song)
+                    <p class="paragraph">{{$song->track_name}} par <b>{{$song->track_artist}}</b>
+                        <br>
+                        <a href="https://open.spotify.com/track/{{$song->track_id}}">Ecouter sur spotify</a>
+
+                    </p>
+                @endforeach
             @else
                 <p>
                     Aucune musique favorite... pour l'instant !
@@ -40,12 +46,5 @@
             @endif
         </div>
     </div>
-
-
     <hr>
-
-
-    {{--
-    --}}
-
 @endsection
