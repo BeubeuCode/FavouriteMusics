@@ -16,7 +16,7 @@
             <span class="navbar-brand mb-0 h1">FavMus</span>
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="/login">
+                    <a class="nav-link" href="/account">
                         Mon compte
                     </a>
                 </li>
