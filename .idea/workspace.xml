@@ -19,10 +19,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ec5d3b8-b506-4fa9-94e2-2db72db4d003" name="Default Changelist" comment="connectAndSearch method : done !">
+      <change afterPath="$PROJECT_DIR$/public/svg/adduser.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/template.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/template.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/scss/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/scss/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,10 +162,10 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/artisan" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -201,7 +202,9 @@
       <workItem from="1601565038316" duration="1695000" />
       <workItem from="1601580490013" duration="38000" />
       <workItem from="1601629179826" duration="2748000" />
-      <workItem from="1601636008277" duration="674000" />
+      <workItem from="1601636008277" duration="6460000" />
+      <workItem from="1601647414221" duration="5226000" />
+      <workItem from="1601715932932" duration="2678000" />
     </task>
     <task id="LOCAL-00001" summary="margin bottom on button">
       <created>1601467639602</created>
@@ -336,7 +339,77 @@
       <option name="project" value="LOCAL" />
       <updated>1601631907406</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="password equality verification DONE !">
+      <created>1601636762303</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1601636762303</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Error message on incorrect password">
+      <created>1601639938728</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1601639938728</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Error message on page">
+      <created>1601640005764</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1601640005764</updated>
+    </task>
+    <task id="LOCAL-00023" summary="routes to get tracks, artists and albums through json in the API middleware">
+      <created>1601641271892</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1601641271892</updated>
+    </task>
+    <task id="LOCAL-00024" summary="LOGIN IS WORKING">
+      <created>1601641914860</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1601641914860</updated>
+    </task>
+    <task id="LOCAL-00025" summary="created account view">
+      <created>1601642219945</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1601642219945</updated>
+    </task>
+    <task id="LOCAL-00026" summary="changed title">
+      <created>1601642322728</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1601642322728</updated>
+    </task>
+    <task id="LOCAL-00027" summary="actual method to show profle">
+      <created>1601642856905</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1601642856905</updated>
+    </task>
+    <task id="LOCAL-00028" summary="redirect when not logged in">
+      <created>1601651928046</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1601651928046</updated>
+    </task>
+    <task id="LOCAL-00029" summary="changed link for mon compte in nav">
+      <created>1601715983189</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1601715983189</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -356,10 +429,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="margin bottom on button" />
-    <MESSAGE value="changed title tag and styling" />
-    <MESSAGE value="added Spotify API and searched for sabaton" />
-    <MESSAGE value="connectAndSearch method : done !" />
     <MESSAGE value="BEGONE, TYPE ANOTATION" />
     <MESSAGE value="home page modifications + styling" />
     <MESSAGE value="title format" />
@@ -375,7 +444,17 @@
     <MESSAGE value="account creation works" />
     <MESSAGE value="checking password equality, need actual code" />
     <MESSAGE value="CHECKS" />
-    <option name="LAST_COMMIT_MESSAGE" value="CHECKS" />
+    <MESSAGE value="password equality verification DONE !" />
+    <MESSAGE value="Error message on incorrect password" />
+    <MESSAGE value="Error message on page" />
+    <MESSAGE value="routes to get tracks, artists and albums through json in the API middleware" />
+    <MESSAGE value="LOGIN IS WORKING" />
+    <MESSAGE value="created account view" />
+    <MESSAGE value="changed title" />
+    <MESSAGE value="actual method to show profle" />
+    <MESSAGE value="redirect when not logged in" />
+    <MESSAGE value="changed link for mon compte in nav" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed link for mon compte in nav" />
   </component>
   <component name="WindowStateProjectService">
     <state x="742" y="232" key="#CLI_Interpreters" timestamp="1601636469208">
@@ -398,22 +477,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="313" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601636529949" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1601636627771">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="938" height="281" key="GridCell.Tab.0.bottom" timestamp="1601717495818">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601636627771" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1601636627771">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601641903109" />
+    <state width="938" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601717495818" />
+    <state width="938" height="281" key="GridCell.Tab.0.center" timestamp="1601717495817">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601636627771" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1601636627770">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601641903109" />
+    <state width="938" height="281" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601717495817" />
+    <state width="938" height="281" key="GridCell.Tab.0.left" timestamp="1601717495817">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601636627770" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1601636627771">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601641903109" />
+    <state width="938" height="281" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601717495817" />
+    <state width="938" height="281" key="GridCell.Tab.0.right" timestamp="1601717495817">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601636627771" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601641903109" />
+    <state width="938" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601717495817" />
     <state x="2714" y="443" key="NewPhpFileDialog" timestamp="1601565788544">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -422,24 +505,28 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="787" y="222" key="RollbackChangesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601544482807" />
-    <state x="651" y="205" key="SettingsEditor" timestamp="1601565053156">
+    <state x="651" y="205" key="SettingsEditor" timestamp="1601716123712">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1982" y="138" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601544293269" />
-    <state x="651" y="205" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601565053156" />
+    <state x="1982" y="138" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601642237008" />
+    <state x="651" y="205" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601716123712" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1601580511873">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601580511873" />
-    <state x="464" y="246" key="Vcs.Push.Dialog.v2" timestamp="1601631919190">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2384" y="246" key="Vcs.Push.Dialog.v2" timestamp="1601642859906">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="464" y="246" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601631919190" />
-    <state x="2384" y="246" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601566722582" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1601636569051">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="464" y="246" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601642222455" />
+    <state x="2384" y="246" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601642859906" />
+    <state x="1834" y="214" width="1893" height="731" key="dock-window-1" timestamp="1601642869755">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601636569051" />
-    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601629381908" />
+    <state x="1834" y="214" width="1893" height="731" key="dock-window-1/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601642869755" />
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1601717764112">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601651880847" />
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601717764112" />
   </component>
 </project>

@@ -9,6 +9,15 @@ body {
     background-color: #dae0e6;
 }
 
+#hero {
+    .heroContent {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
 .title {
     font-family: 'Playfair Display', serif;
     font-weight: bolder;
@@ -48,3 +57,6 @@ body {
     color: black !important;
 }
 
+.tilted {
+    transform: rotate(-1deg);
+}
