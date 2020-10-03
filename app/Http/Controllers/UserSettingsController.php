@@ -17,4 +17,14 @@ class UserSettingsController extends Controller
         $genresReq->save();
         return Redirect::back();
     }
+
+    public function removeFavouriteGenre(Request $request) {
+        $user = Auth::user();
+        $genresReq = LikedGenres::where('user_id', $user->id)->first();
+        $genres = $genresReq->favgenres;
+        $genres = str_replace(','.$request, '', $genres);
+        $genresReq->favgenres = $genres;
+        $genresReq->save();
+        return Redirect::back();
+    }
 }
