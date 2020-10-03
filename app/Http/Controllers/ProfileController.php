@@ -29,7 +29,7 @@ class ProfileController extends Controller
 
     public function showAnotherUsersProfile($username) {
         $user = User::where('name', $username)->first();
-        if($user === null) { return abort(404); }
+        if($user == null) { return abort(404); }
         $genres = LikedGenres::where('user_id', $user->id)->first();
         $profilePicture = $this->getGravatarProfilePicture($user->email, 150);
         if(!$genres) {

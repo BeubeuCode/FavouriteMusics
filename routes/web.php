@@ -33,3 +33,5 @@ Route::get('/login',  [LoginController::class, 'loginForm']);
 Route::post('/registeraccount', [LoginController::class, 'createAccount']);
 Route::post('/loginaccount', [LoginController::class,  'authenticate']);
 Route::get('/account', [ProfileController::class, 'showProfile']);
+
+Route::get('/profile/{username}', [ProfileController::class, 'showAnotherUsersProfile']);
