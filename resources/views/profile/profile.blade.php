@@ -46,9 +46,10 @@
     </div>
     <hr>
     @if(\Illuminate\Support\Facades\Auth::user() != null)
+        <h2 class="title">Paramètres</h2>
+
         <div class="row" id="settings">
             <div class="col-md-6">
-                <h2 class="title">Paramètres</h2>
                 <h3 class="title">Genres favoris</h3>
                 <div class="form-group">
                     <label for="newGenreInput">Enelver un genre : </label>
@@ -65,7 +66,11 @@
             </div>
             <div class="col-md-6">
                 <h3 class="title">Musiques favorites</h3>
-
+                <div class="form-group">
+                    <label for="newMusicInput">Ajouter une musique : </label>
+                    <input type="text" class="form-control" name="newMusicInput" id="newMusicInput">
+                    <br>
+                </div>
             </div>
         </div>
 
