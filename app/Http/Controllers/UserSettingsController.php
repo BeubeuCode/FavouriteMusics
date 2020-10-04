@@ -24,10 +24,12 @@ class UserSettingsController extends Controller
     public function removeFavouriteGenre($newgenre) {
         $user = Auth::user();
         $genresReq = LikedGenres::where('user_id', $user->id)->first();
-        $genres = $genresReq->favgenres;
-        $genres = str_replace(','.$newgenre, '', $genres);
-        $genresReq->favgenres = $genres;
-        $genresReq->save();
+        if(stristr($genresReq->favgenres, $newgenre)) {
+            $genres = $genresReq->favgenres;
+            $genres = str_replace(','.$newgenre, '', $genres);
+            $genresReq->favgenres = $genres;
+            $genresReq->save();
+        }
         return Redirect::back();
     }
 
