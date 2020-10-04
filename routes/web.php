@@ -39,3 +39,6 @@ Route::get('/account', [ProfileController::class, 'showProfile']);
 
 Route::get('/profile/{username}', [ProfileController::class, 'showAnotherUsersProfile']);
 Route::get('/addmusic/{track_artist}/{track_name}/{track_id}', [UserSettingsController::class, 'addFavouriteMusic']);
+Route::get('/getTrackInfo/{query}', function($query) {
+    SpotifyController::searchAndAddTrackToAccount($query);
+});
