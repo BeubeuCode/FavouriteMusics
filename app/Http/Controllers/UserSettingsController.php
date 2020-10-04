@@ -8,6 +8,7 @@ use App\Models\UserFavoriteSongs;
 use Illuminate\Support\Facades\Redirect;
 use Illuminate\Support\Facades\Auth;
 
+
 class UserSettingsController extends Controller
 {
     public function addFavouriteGenre($newGenre) {

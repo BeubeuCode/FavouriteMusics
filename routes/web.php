@@ -5,6 +5,9 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\SpotifyController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\UserSettingsController;
+
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -35,3 +38,4 @@ Route::post('/loginaccount', [LoginController::class,  'authenticate']);
 Route::get('/account', [ProfileController::class, 'showProfile']);
 
 Route::get('/profile/{username}', [ProfileController::class, 'showAnotherUsersProfile']);
+Route::get('/addmusic/{track_artist}/{track_name}/{track_id}', [UserSettingsController::class, 'addFavouriteMusic']);
