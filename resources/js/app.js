@@ -26,7 +26,7 @@ if($('#removeGenreButton').length && $('#addGenreButton').length) {
 
     $('#addGenreButton').preventDefault;
     $('#addGenreButton').click(() => {
-        let keyword = $('#oldGenreInput').val();
+        let keyword = $('#newGenreInput').val();
         window.location = `/addkeyword/${keyword}`;
     });
 }

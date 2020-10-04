@@ -19357,7 +19357,7 @@ if ($('#removeGenreButton').length && $('#addGenreButton').length) {
   });
   $('#addGenreButton').preventDefault;
   $('#addGenreButton').click(function () {
-    var keyword = $('#oldGenreInput').val();
+    var keyword = $('#newGenreInput').val();
     window.location = "/addkeyword/".concat(keyword);
   });
 }
