@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Models\LikedGenres;
 use App\Models\UserFavoriteSongs;
 use Illuminate\Support\Facades\Redirect;
+use Illuminate\Support\Facades\Auth;
 
 class UserSettingsController extends Controller
 {
@@ -30,9 +31,8 @@ class UserSettingsController extends Controller
     }
 
     public function addFavouriteMusic($track_id, $track_name, $track_artist) {
-        $user = Auth::user();
-        $newMusic = new UserFavoriteSongs;
-        $newMusic->user_id = $user->id;
+        $newMusic = new UserFavoriteSongs();
+        $newMusic->user_id = Auth::id();
         $newMusic->track_id = $track_id;
         $newMusic->track_name = $track_name;
         $newMusic->track_artist = $track_artist;
@@ -41,7 +41,7 @@ class UserSettingsController extends Controller
     }
 
     public function removeFavouriteMusic($track_id) {
-        $user = Auth::user;
+        $user = Auth::user();
         $musicToRemove = UserFavoriteSongs::where('user_id', $user->id)->where('track_id',$track_id)->first();
         $musicToRemove->delete();
         return Redirect::back;
