@@ -17,8 +17,17 @@ if(firstField  && secondField) {
 
 
 //remove genre
-$('#removeGenreButton').preventDefault;
-$('#removeGenreButton').click(() => {
-    let keyword = $('#oldGenreInput').val();
-    window.location = `/removekeyword/${keyword}`;
-});
+if($('#removeGenreButton').length && $('#addGenreButton').length) {
+    $('#removeGenreButton').preventDefault;
+    $('#removeGenreButton').click(() => {
+        let keyword = $('#oldGenreInput').val();
+        window.location = `/removekeyword/${keyword}`;
+    });
+
+    $('#addGenreButton').preventDefault;
+    $('#addGenreButton').click(() => {
+        let keyword = $('#oldGenreInput').val();
+        window.location = `/addkeyword/${keyword}`;
+    });
+}
+

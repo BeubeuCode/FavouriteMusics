@@ -19349,11 +19349,18 @@ if (firstField && secondField) {
 } //remove genre
 
 
-$('#removeGenreButton').preventDefault;
-$('#removeGenreButton').click(function () {
-  var keyword = $('#oldGenreInput').val();
-  window.location = "/removekeyword/".concat(keyword);
-});
+if ($('#removeGenreButton').length && $('#addGenreButton').length) {
+  $('#removeGenreButton').preventDefault;
+  $('#removeGenreButton').click(function () {
+    var keyword = $('#oldGenreInput').val();
+    window.location = "/removekeyword/".concat(keyword);
+  });
+  $('#addGenreButton').preventDefault;
+  $('#addGenreButton').click(function () {
+    var keyword = $('#oldGenreInput').val();
+    window.location = "/addkeyword/".concat(keyword);
+  });
+}
 
 /***/ }),
 
