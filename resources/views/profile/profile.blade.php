@@ -15,14 +15,12 @@
             <h3 class="title">Genres Favoris</h3>
             @if(isset($genres))
             <p class="paragraph">
+                <ul>
                 @php $genres_arr = explode(',', $genres->favgenres) @endphp
                 @foreach($genres_arr as $el)
-                    @if(next($genres_arr) !== false)
-                        {{ $el }},
-                    @else
-                        {{$el}}
-                    @endif
+                    <li class="paragraph">{{$el}}</li>
                 @endforeach
+                </ul>
             </p>
             @else
                 <p class="paragraph">Pas de genres favoris !</p>
