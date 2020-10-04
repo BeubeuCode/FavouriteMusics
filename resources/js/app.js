@@ -10,7 +10,15 @@ function checkPasswordEquality() {
         document.getElementById('incorrectPasswordText').style.display = 'none';
     }
 }
+if(firstField  && secondField) {
+    firstField.onchange = checkPasswordEquality;
+    secondField.onchange = checkPasswordEquality;
+}
 
-firstField.onchange = checkPasswordEquality;
-secondField.onchange = checkPasswordEquality;
 
+//remove genre
+$('#removeGenreButton').preventDefault;
+$('#removeGenreButton').click(() => {
+    let keyword = $('#oldGenreInput').val();
+    window.location = `/removekeyword/${keyword}`;
+});

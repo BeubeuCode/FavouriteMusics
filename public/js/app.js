@@ -19343,8 +19343,17 @@ function checkPasswordEquality() {
   }
 }
 
-firstField.onchange = checkPasswordEquality;
-secondField.onchange = checkPasswordEquality;
+if (firstField && secondField) {
+  firstField.onchange = checkPasswordEquality;
+  secondField.onchange = checkPasswordEquality;
+} //remove genre
+
+
+$('#removeGenreButton').preventDefault;
+$('#removeGenreButton').click(function () {
+  var keyword = $('#oldGenreInput').val();
+  window.location = "/removekeyword/".concat(keyword);
+});
 
 /***/ }),
 
