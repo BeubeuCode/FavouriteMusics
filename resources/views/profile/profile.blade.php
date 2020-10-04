@@ -46,20 +46,28 @@
     </div>
     <hr>
     @if(\Illuminate\Support\Facades\Auth::user() != null)
-        <h2 class="title">Paramètres</h2>
-        <h3 class="title">Genres favoris</h3>
-        <div class="form-group">
-            <label for="newGenreInput">Enelver un genre : </label>
-            <input class="form-control" type="text" id="oldGenreInput" name="newGenreInput">
-            <br>
-            <button class="btn btn-colored" id="removeGenreButton">Enlever</button>
+        <div class="row" id="settings">
+            <div class="col-md-6">
+                <h2 class="title">Paramètres</h2>
+                <h3 class="title">Genres favoris</h3>
+                <div class="form-group">
+                    <label for="newGenreInput">Enelver un genre : </label>
+                    <input class="form-control" type="text" id="oldGenreInput" name="newGenreInput">
+                    <br>
+                    <button class="btn btn-colored" id="removeGenreButton">Enlever</button>
+                </div>
+                <div class="form-group">
+                    <label for="newGenreInput">Ajouter un genre : </label>
+                    <input class="form-control" type="text" id="newGenreInput" name="newGenreInput">
+                    <br>
+                    <button class="btn btn-colored" id="addGenreButton">Ajouter</button>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h3 class="title">Musiques favorites</h3>
+
+            </div>
         </div>
-        <div class="form-group">
-            <label for="newGenreInput">Ajouter un genre : </label>
-            <input class="form-control" type="text" id="newGenreInput" name="newGenreInput">
-            <br>
-            <button class="btn btn-colored" id="addGenreButton">Ajouter</button>
-        </div>
-        <h3 class="title">Musiques favorites</h3>
+
     @endif
 @endsection
