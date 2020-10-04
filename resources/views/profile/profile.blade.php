@@ -1,5 +1,5 @@
 @extends('template')
-@section('title') Mon profil @endsection
+@section('title') Profil de {{$user->name}} @endsection
 @section('content')
     <hr>
     <div class="row">
@@ -31,9 +31,9 @@
             <h3 class="title">Musiques favorites</h3>
             @if(isset($favsongs))
                 @foreach($favsongs as $song)
-                    <p class="paragraph">{{$song->track_name}} par <b>{{$song->track_artist}}</b>
+                    <p class="paragraph"><b>{{$song->track_name}}</b> par <b>{{$song->track_artist}}</b>
                         <br>
-                        <a href="https://open.spotify.com/track/{{$song->track_id}}">Ecouter sur spotify</a>
+                        <a href="https://open.spotify.com/track/{{$song->track_id}}" target="_blank">Ecouter sur spotify</a>
 
                     </p>
                 @endforeach
