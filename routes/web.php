@@ -40,6 +40,7 @@ Route::get('/account', [ProfileController::class, 'showProfile']);
 Route::get('/profile/{username}', [ProfileController::class, 'showAnotherUsersProfile']);
 Route::get('/profiles/', [ProfileController::class, 'showProfileList']);
 
+Route::get('/addkeyword/{newgenre}', [UserSettingsController::class, 'addFavouriteGenre']);
 Route::get('/removekeyword/{newgenre}', [UserSettingsController::class, 'removeFavouriteGenre']);
 Route::get('/addmusic/{track_id}/{track_name}/{track_artist}', [UserSettingsController::class, 'addFavouriteMusic']);
 Route::get('/addTrackToAccount/{query}', [SpotifyController::class, 'searchAndAddTrackToAccount']);
