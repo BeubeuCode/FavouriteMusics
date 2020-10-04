@@ -39,4 +39,10 @@ class UserSettingsController extends Controller
         $newMusic->save();
         return Redirect::back();
     }
+
+    public function removeFavouriteMusic(Request $request) {
+        $user = Auth::user;
+        $musicToRemove = UserFavoriteSongs::where('user_id', $user->id)->where('track_id', $request->track_id)->first();
+        $musicToRemove->delete();
+    }
 }
