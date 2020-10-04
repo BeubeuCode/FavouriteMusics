@@ -9,40 +9,41 @@ use Illuminate\Support\Facades\Redirect;
 
 class UserSettingsController extends Controller
 {
-    public function addFavouriteGenre(Request $request) {
+    public function addFavouriteGenre($newGenre) {
         $user = Auth::user();
         $genresReq = LikedGenres::where('user_id', $user->id)->first();
         $genres = $genresReq->favgenres;
-        $genres = $genres . ',' . $request->newGenre;
+        $genres = $genres . ',' . $newGenre;
         $genresReq->favgenres = $genres;
         $genresReq->save();
         return Redirect::back();
     }
 
-    public function removeFavouriteGenre(Request $request) {
+    public function removeFavouriteGenre($newgenre) {
         $user = Auth::user();
         $genresReq = LikedGenres::where('user_id', $user->id)->first();
         $genres = $genresReq->favgenres;
-        $genres = str_replace(','.$request, '', $genres);
+        $genres = str_replace(','.$newgenre, '', $genres);
         $genresReq->favgenres = $genres;
         $genresReq->save();
         return Redirect::back();
     }
 
-    public function addFavouriteMusic(Request $request) {
+    public function addFavouriteMusic($track_id, $track_name, $track_artist) {
         $user = Auth::user();
         $newMusic = new UserFavoriteSongs;
         $newMusic->user_id = $user->id;
-        $newMusic->track_id = $request->track_id;
-        $newMusic->track_name = $request->track_name;
-        $newMusic->track_artist = $request->track_artist;
+        $newMusic->track_id = $track_id;
+        $newMusic->track_name = $track_name;
+        $newMusic->track_artist = $track_artist;
         $newMusic->save();
         return Redirect::back();
     }
 
-    public function removeFavouriteMusic(Request $request) {
+    public function removeFavouriteMusic($track_id) {
         $user = Auth::user;
-        $musicToRemove = UserFavoriteSongs::where('user_id', $user->id)->where('track_id', $request->track_id)->first();
+        $musicToRemove = UserFavoriteSongs::where('user_id', $user->id)->where('track_id',$track_id)->first();
         $musicToRemove->delete();
+        return Redirect::back;
     }
 }
