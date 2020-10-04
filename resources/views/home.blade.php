@@ -31,7 +31,7 @@
                     Explorez les profils des autres utilisateurs et découvrez leurs musiques, genres et artistes favoris.
                 </p>
                 <p>
-                    <a href="#" class="btn btn-colored">Explorer les profils</a>
+                    <a href="/profiles" class="btn btn-colored">Explorer les profils</a>
                 </p>
             </div>
         </div>
