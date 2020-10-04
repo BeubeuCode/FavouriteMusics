@@ -58,4 +58,10 @@ class ProfileController extends Controller
             return Response::view('profile.profile', compact(['user', 'genres', 'profilePicture', 'favsongs']));
         }
     }
+
+    public function showProfileList() {
+        $allAccounts = User::all();
+        return Response::view('profile.profilelist', compact('allAccounts'));
+    }
+
 }

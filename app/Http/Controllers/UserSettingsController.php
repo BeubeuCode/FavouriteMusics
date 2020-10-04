@@ -38,7 +38,7 @@ class UserSettingsController extends Controller
         $newMusic->track_name = $track_name;
         $newMusic->track_artist = $track_artist;
         $newMusic->save();
-        return Redirect::back();
+        return Redirect('/account');
     }
 
     public function removeFavouriteMusic($track_id) {
