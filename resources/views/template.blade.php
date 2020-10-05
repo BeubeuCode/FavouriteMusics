@@ -13,7 +13,7 @@
     </head>
     <body>
         <nav class="navbar navbar-light bg-light">
-            <span class="navbar-brand mb-0 h1">FavMus</span>
+            <a class="navbar-brand mb-0 h1" href="/">🎶 FavMus</a>
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
                     <a class="nav-link" href="/account">
