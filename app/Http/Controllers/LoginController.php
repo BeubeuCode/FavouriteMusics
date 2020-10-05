@@ -14,7 +14,7 @@ class LoginController extends Controller
     public function authenticate(Request $request) {
 
         $creds = $request->only('email', 'password');
-        if(Auth::attempt($creds)) { return redirect('/account'); }
+        if(Auth::attempt($creds, $request->rememberMe)) { return redirect('/account'); }
         else { return Response('failed.'); }
     }
 

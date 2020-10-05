@@ -16,6 +16,12 @@
         <div class="form-group">
             <input class="btn btn-colored" type="submit" value="Se connecter">
         </div>
+        <div class="form-group">
+            <div class="form-check">
+                <input type="checkbox" id="rememberMe" name="rememberMe" class="form-check-input">
+                <label for="rememberMe" class="form-check-label paragraph">Se souvenir de moi</label>
+            </div>
+        </div>
     </form>
     <div class="card">
         <card class="card-body">
