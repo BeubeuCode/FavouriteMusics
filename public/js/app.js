@@ -19360,6 +19360,15 @@ if ($('#removeGenreButton').length && $('#addGenreButton').length) {
     var keyword = $('#newGenreInput').val();
     window.location = "/addkeyword/".concat(keyword);
   });
+} //add music
+
+
+if ($('#addMusicButton').length) {
+  $('#addMusicButton').preventDefault;
+  $('#addMusicButton').click(function () {
+    var music = $('#newMusicInput').val();
+    window.location = "/addTrackToAccount/".concat(music);
+  });
 }
 
 /***/ }),

@@ -31,3 +31,13 @@ if($('#removeGenreButton').length && $('#addGenreButton').length) {
     });
 }
 
+//add music
+if($('#addMusicButton').length) {
+    $('#addMusicButton').preventDefault;
+    $('#addMusicButton').click(() => {
+        let music = $('#newMusicInput').val();
+        window.location = `/addTrackToAccount/${music}`;
+    });
+}
+
+
