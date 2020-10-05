@@ -46,7 +46,11 @@ class UserSettingsController extends Controller
     public function removeFavouriteMusic($track_name) {
         $user = Auth::user();
         $musicToRemove = UserFavoriteSongs::where('user_id', $user->id)->where('track_name',$track_name)->first();
-        $musicToRemove->delete();
-        return Redirect::back;
+        if($musicToRemove->delete()) {
+            return Redirect('/account');
+        } else {
+            $musicNotFound = true;
+            return Redirect('/account')->with('musicNotFound');
+        }
     }
 }

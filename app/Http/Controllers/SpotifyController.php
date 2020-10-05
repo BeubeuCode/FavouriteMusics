@@ -109,8 +109,8 @@ class SpotifyController extends Controller
         try {
             $result = $searchResults->tracks->items[0];
         } catch (Exception $e) {
-            $error = true;
-            return Response::redirectTo('/account')->with('error');
+            $musicNotFound = true;
+            return Response::redirectTo('/account')->with('musicNotFound');
         }
         return Response::redirectTo('/addmusic/'.$result->id.'/'.$result->name.'/'.$result->artists[0]->name);
     }

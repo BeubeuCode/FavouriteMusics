@@ -44,3 +44,4 @@ Route::get('/addkeyword/{newgenre}', [UserSettingsController::class, 'addFavouri
 Route::get('/removekeyword/{newgenre}', [UserSettingsController::class, 'removeFavouriteGenre']);
 Route::get('/addmusic/{track_id}/{track_name}/{track_artist}', [UserSettingsController::class, 'addFavouriteMusic']);
 Route::get('/addTrackToAccount/{query}', [SpotifyController::class, 'searchAndAddTrackToAccount']);
+Route::get('/removetrack/{track_name}', [UserSettingsController::class, 'removeFavouriteMusic']);

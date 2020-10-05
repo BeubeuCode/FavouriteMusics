@@ -74,9 +74,16 @@
                         <br>
                         <button class="btn btn-colored" id="addMusicButton">Ajouter</button>
                     </div>
+                    <div class="form-group">
+                        <label for="newMusicInput">Enlever une musique : </label>
+                        <input type="text" class="form-control" name="oldMusicInput" id="oldMusicInput">
+                        <small id="musicHelp" class="form-text text-muted">Respectez la casse ! (majuscules/minuscules)"</small>
+                        <br>
+                        <button class="btn btn-colored" id="removeMusicButton">Ajouter</button>
+                    </div>
                 </div>
             </div>
-            @if(isset($errors))
+            @if(isset($musicNotFound))
                 <script>
                     window.alert('Musique non trouvée');
                 </script>

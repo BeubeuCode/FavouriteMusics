@@ -15,13 +15,13 @@
                 <br/>
             </div>
             <div class="col-md-6 centered">
-                <img src="/svg/listening.svg" class="svgLanding">
+                <img src="/svg/listening.svg" class="svgLanding" alt="écoute de la musique">
             </div>
         </div>
         <hr>
         <div class="row">
             <div class="col-md-6">
-                <img src="/svg/adduser.svg" class="svgLanding">
+                <img src="/svg/adduser.svg" class="svgLanding" alt="profil">
             </div>
             <div class="col-md-6">
                 <h2 class="title">

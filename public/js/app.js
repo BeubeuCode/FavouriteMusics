@@ -19363,11 +19363,16 @@ if ($('#removeGenreButton').length && $('#addGenreButton').length) {
 } //add music
 
 
-if ($('#addMusicButton').length) {
+if ($('#addMusicButton').length && $('#removeMusicButton')) {
   $('#addMusicButton').preventDefault;
   $('#addMusicButton').click(function () {
     var music = $('#newMusicInput').val();
     window.location = "/addTrackToAccount/".concat(music);
+  });
+  $('#removeMusicButton').preventDefault;
+  $('#removeMusicButton').click(function () {
+    var music = $('#oldMusicInput').val();
+    window.location = "/removetrack/".concat(music);
   });
 }
 
