@@ -27,9 +27,21 @@
             @yield('content')
         </div>
     </div>
-        <footer>
+        <footer id="footer" class="aufond">
             <div class="container">
-
+                <div class="row">
+                    <div class="col-md-4 footerSec"><p class="paragraph">© Benoît Arnoult - Réalisé dans le cadre d'une candidature à un poste de développeur web.</p></div>
+                    <div class="col-md-4 footerSec">
+                        <p class="paragraph"><a href="/profiles">Les Profils</a></p>
+                        <p class="paragraph"><a href="/login">Se connecter</a></p>
+                        <p class="paragraph"><a href="/register">S'inscire</a></p>
+                    </div>
+                    <div class="col-md-4 footerSec">
+                        <p class="paragraph"><a href="/profiles">A propos</a></p>
+                        <p class="paragraph"><a href="/login">Mentions Légales</a></p>
+                        <p class="paragraph"><a href="/register">CGU</a></p>
+                    </div>
+                </div>
             </div>
         </footer>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
