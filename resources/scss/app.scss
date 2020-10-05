@@ -30,6 +30,8 @@ body {
 
 .container {
     .svgLanding {
+        margin-top: 2%;
+        margin-bottom: 2%;
         width: 70%;
         height: auto;
     }
@@ -68,4 +70,23 @@ body {
 
 li.paragraph {
     list-style-type: none;
+}
+
+#hero {
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $slightRed;
+    color: white;
+    flex-direction: column;
+    .paragraph {
+        font-size: larger;
+    }
+    clip-path: polygon(0 0, 100% 0, 100% 77%, 0% 100%);
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
 }

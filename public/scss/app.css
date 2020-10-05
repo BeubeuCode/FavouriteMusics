@@ -25,6 +25,8 @@ body {
 }
 
 .container .svgLanding {
+  margin-top: 2%;
+  margin-bottom: 2%;
   width: 70%;
   height: auto;
 }
@@ -63,5 +65,26 @@ body {
 
 li.paragraph {
   list-style-type: none;
+}
+
+#hero {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff6366;
+  color: white;
+  flex-direction: column;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 77%, 0% 100%);
+          clip-path: polygon(0 0, 100% 0, 100% 77%, 0% 100%);
+}
+
+#hero .paragraph {
+  font-size: larger;
+}
+
+footer {
+  bottom: 0;
+  width: 100%;
 }
 

@@ -2,6 +2,14 @@
 @section('title')
     Home
 @endsection
+@section('hero')
+    <div id="hero">
+        <h1 class="title">
+            FavMus
+        </h1>
+        <p class="paragraph">Le réseau social de partage de musique</p>
+    </div>
+@endsection
 @section('content')
         <div class="row">
             <div class="col-md-6">
