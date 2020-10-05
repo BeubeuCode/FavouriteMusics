@@ -105,7 +105,13 @@ class SpotifyController extends Controller
 
     public function searchAndAddTrackToAccount($query) {
         $searchResults = $this->searchResults($query, 'track', $this->connect());
-        $result = $searchResults->tracks->items[0];
+        $result = null;
+        try {
+            $result = $searchResults->tracks->items[0];
+        } catch (Exception $e) {
+            $error = true;
+            return Response::redirectTo('/account')->with('error');
+        }
         return Response::redirectTo('/addmusic/'.$result->id.'/'.$result->name.'/'.$result->artists[0]->name);
     }
 

@@ -70,10 +70,17 @@
                     <div class="form-group">
                         <label for="newMusicInput">Ajouter une musique : </label>
                         <input type="text" class="form-control" name="newMusicInput" id="newMusicInput">
+                        <small id="musicHelp" class="form-text text-muted">Exemple : "sahara dreamcatcher"</small>
                         <br>
+                        <button class="btn btn-colored" id="addMusicButton">Ajouter</button>
                     </div>
                 </div>
             </div>
+            @if(isset($errors))
+                <script>
+                    window.alert('Musique non trouvée');
+                </script>
+            @endif
         @endif
     @endif
 @endsection
