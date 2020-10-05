@@ -32,11 +32,17 @@ if($('#removeGenreButton').length && $('#addGenreButton').length) {
 }
 
 //add music
-if($('#addMusicButton').length) {
+if($('#addMusicButton').length && $('#removeMusicButton')) {
     $('#addMusicButton').preventDefault;
     $('#addMusicButton').click(() => {
         let music = $('#newMusicInput').val();
         window.location = `/addTrackToAccount/${music}`;
+    });
+
+    $('#removeMusicButton').preventDefault;
+    $('#removeMusicButton').click(() => {
+        let music = $('#oldMusicInput').val();
+        window.location = `/removetrack/${music}`;
     });
 }
 
