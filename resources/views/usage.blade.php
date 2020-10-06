@@ -18,5 +18,25 @@
     </p>
     <h2 class="title">Autres obligations légales</h2>
     <p class="paragraph"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A animi corporis dolorem eaque fuga fugiat magni modi officia repellendus reprehenderit, unde velit voluptatem voluptatibus. At debitis eaque nesciunt nisi omnis?</span><span>Aperiam doloribus exercitationem harum incidunt labore minima necessitatibus nemo numquam obcaecati quia, sequi sint. Debitis distinctio doloribus dolorum error, excepturi hic id, ipsam itaque, nihil nulla quidem reiciendis repellat sed?</span><span>Est ex natus nobis obcaecati provident quidem sint suscipit. Cumque ducimus eius illo in laudantium molestiae quis rem totam? Culpa ex hic illum in incidunt iusto repellendus sed unde velit?</span>
-    </p>
+
+
+@endsection
+        @section('afterPrimaryContainer')
+            <footer id="footer" class="aufond">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 footerSec"><p class="paragraph">© Benoît Arnoult - Réalisé dans le cadre d'une candidature à un poste de développeur web.</p></div>
+    <div class="col-md-4 footerSec">
+        <p class="paragraph"><a href="/profiles">Les Profils</a></p>
+        <p class="paragraph"><a href="/login">Se connecter</a></p>
+        <p class="paragraph"><a href="/register">S'inscire</a></p>
+    </div>
+    <div class="col-md-4 footerSec">
+        <p class="paragraph"><a href="/about">A propos</a></p>
+        <p class="paragraph"><a href="/legal">Mentions Légales</a></p>
+        <p class="paragraph"><a href="/usage-terms">CGU</a></p>
+    </div>
+    </div>
+    </div>
+    </footer>
 @endsection
