@@ -6321,3 +6321,13 @@ footer a:visited footer a:hover {
   font-size: 3.5em;
 }
 
+::-webkit-scrollbar {
+  width: 12px;
+  background-color: #414141;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 25px;
+  background-color: #be4d4e;
+}
+

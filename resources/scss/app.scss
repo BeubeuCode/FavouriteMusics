@@ -177,4 +177,12 @@ footer {
     }
 }
 
+::-webkit-scrollbar {
+    width: 12px;
+    background-color: #414141;
+}
 
+::-webkit-scrollbar-thumb {
+    border-radius: 25px;
+    background-color: $darkRed;
+}

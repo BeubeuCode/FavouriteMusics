@@ -19376,6 +19376,20 @@ if ($('#addMusicButton').length && $('#removeMusicButton')) {
   });
 }
 
+if ($('#openMenu').length && $('#modalMenu').length) {
+  var openMenu = $('#openMenu');
+  var modalMenu = $('#modalMenu');
+  var closeMenu = $('#closeMenu');
+  openMenu.click(function () {
+    modalMenu.show();
+    $("body").css("overflow", "hidden");
+  });
+  closeMenu.click(function () {
+    modalMenu.hide();
+    $("body").css("overflow", "visible");
+  });
+}
+
 /***/ }),
 
 /***/ "./resources/js/bootstrap.js":
