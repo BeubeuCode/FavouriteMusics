@@ -27,9 +27,8 @@ body {
     }
 }
 
-.nav {
-    display: flex;
-    justify-content: space-around;
+.navbar {
+    background-color: $slightRed;
 }
 
 .title {
@@ -59,7 +58,7 @@ body {
 }
 
 #primaryContainer {
-    min-height: 100%;
+    min-height: 80vh;
     margin-top: 2%;
 }
 .btn {
@@ -71,8 +70,10 @@ body {
     color: white;
 }
 
+
+
 .navbar-brand {
-    color: black !important;
+    color: white !important;
 }
 
 .tilted {
@@ -135,6 +136,7 @@ footer {
 }
 
 #openMenu {
+    color: white;
     font-size: 1.5em;
     cursor: pointer;
 }

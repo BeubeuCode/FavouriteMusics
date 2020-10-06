@@ -6163,9 +6163,8 @@ body {
   align-items: center;
 }
 
-.nav {
-  display: flex;
-  justify-content: space-around;
+.navbar {
+  background-color: #ff6366;
 }
 
 .title {
@@ -6193,7 +6192,7 @@ body {
 }
 
 #primaryContainer {
-  min-height: 100%;
+  min-height: 80vh;
   margin-top: 2%;
 }
 
@@ -6207,7 +6206,7 @@ body {
 }
 
 .navbar-brand {
-  color: black !important;
+  color: white !important;
 }
 
 .tilted {
@@ -6276,6 +6275,7 @@ footer a:visited footer a:hover {
 }
 
 #openMenu {
+  color: white;
   font-size: 1.5em;
   cursor: pointer;
 }

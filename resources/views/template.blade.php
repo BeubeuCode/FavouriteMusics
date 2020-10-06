@@ -35,17 +35,32 @@
             <a class="navbar-brand mb-0 h1" href="/">🎶 FavMus</a>
             <span id="openMenu"><i class="fas fa-bars"></i></span>
         </nav>
-        0
+
 
         @yield('hero')
         <div class="container" id="primaryContainer">
             @yield('content')
         </div>
     </div>
-    @yield('afterPrimaryContainer')
     </div>
 
-
+    <footer id="footer" class="aufond">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 footerSec"><p class="paragraph">© Benoît Arnoult - Réalisé dans le cadre d'une candidature à un poste de développeur web.</p></div>
+                <div class="col-md-4 footerSec">
+                    <p class="paragraph"><a href="/profiles">Les Profils</a></p>
+                    <p class="paragraph"><a href="/login">Se connecter</a></p>
+                    <p class="paragraph"><a href="/register">S'inscire</a></p>
+                </div>
+                <div class="col-md-4 footerSec">
+                    <p class="paragraph"><a href="/about">A propos</a></p>
+                    <p class="paragraph"><a href="/legal">Mentions Légales</a></p>
+                    <p class="paragraph"><a href="/usage-terms">CGU</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
