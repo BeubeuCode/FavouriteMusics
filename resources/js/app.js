@@ -45,5 +45,3 @@ if($('#addMusicButton').length && $('#removeMusicButton')) {
         window.location = `/removetrack/${music}`;
     });
 }
-
-
