@@ -1,11 +1,16 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" prefix="og: https://ogp.me/ns#">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
+        <meta name="title" content="">
+        <meta name="description" content="Partagez vos gouts musicaux sur FavMus, et découvrez de nouvelles musiques !">
         <title>@yield('title') - 🎶 FavMus</title>
-
+        <meta property="og:title" content="@yield('title') - FavMus" />
+        <meta property="og:type" content="website" />
+        <meta property="og:description" content="Partagez vos gouts musicaux sur FavMus, et découvrez de nouvelles musiques !" />
+        <meta property="og:url" content="{{Request::url()}}" />
+        <meta property="og:image" content="{{url('/')}}/svg/teamspirit.svg"/>
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Roboto&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
