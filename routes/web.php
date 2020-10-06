@@ -32,6 +32,15 @@ Route::get('/logout', function() {
 
 Route::get('/register',  [LoginController::class, 'registerForm']);
 Route::get('/login',  [LoginController::class, 'loginForm']);
+Route::get('/legal', function() {
+    return view('legal');
+});
+Route::get('/usage-terms', function() {
+    return view('usage');
+});
+Route::get('/about', function() {
+    return view('about');
+});
 // LOGIN/REGISTER ACTIONS //
 Route::post('/registeraccount', [LoginController::class, 'createAccount']);
 Route::post('/loginaccount', [LoginController::class,  'authenticate']);
