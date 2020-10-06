@@ -12,6 +12,7 @@ $bodyColor: #dae0e6;
 }
 
 body {
+    z-index: 1;
     display:flex;
     flex-direction:column;
     background-color: $bodyColor;
@@ -70,7 +71,7 @@ body {
     color: white;
 }
 
-.nav-link {
+.navbar-brand {
     color: black !important;
 }
 
@@ -128,3 +129,52 @@ footer {
         }
     }
 }
+
+#content {
+    position:relative;
+}
+
+#openMenu {
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+#modalMenu {
+    #closeMenu {
+        position: absolute;
+        right: 10%;
+        top: 5%;
+        i {
+            font-size: 2em;
+        }
+    }
+    position: absolute;
+    text-align: center;
+    background-color: black;
+    opacity: 0.8;
+    backdrop-filter: blur(2px);
+    color: white;
+    width: 100%;
+    height: 100vh;
+    z-index: 999999999;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    p {
+        a {
+            font-size: xx-large;
+            font-family: 'Nunito', sans-serif;
+            &:visited, &:hover {
+                color: white;
+            }
+        }
+    }
+
+    .title {
+        font-size: 3.5em;
+    }
+}
+
+

@@ -6150,6 +6150,7 @@ readers do not read off random characters that represent icons */
 }
 
 body {
+  z-index: 1;
   display: flex;
   flex-direction: column;
   background-color: #dae0e6;
@@ -6205,7 +6206,7 @@ body {
   color: white;
 }
 
-.nav-link {
+.navbar-brand {
   color: black !important;
 }
 
@@ -6268,5 +6269,55 @@ footer a {
 
 footer a:visited footer a:hover {
   color: white;
+}
+
+#content {
+  position: relative;
+}
+
+#openMenu {
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+#modalMenu {
+  position: absolute;
+  text-align: center;
+  background-color: black;
+  opacity: 0.8;
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+  color: white;
+  width: 100%;
+  height: 100vh;
+  z-index: 999999999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#modalMenu #closeMenu {
+  position: absolute;
+  right: 10%;
+  top: 5%;
+}
+
+#modalMenu #closeMenu i {
+  font-size: 2em;
+}
+
+#modalMenu p a {
+  font-size: xx-large;
+  font-family: "Nunito", sans-serif;
+}
+
+#modalMenu p a:visited,
+#modalMenu p a:hover {
+  color: white;
+}
+
+#modalMenu .title {
+  font-size: 3.5em;
 }
 

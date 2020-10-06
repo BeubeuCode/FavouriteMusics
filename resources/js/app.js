@@ -46,9 +46,17 @@ if($('#addMusicButton').length && $('#removeMusicButton')) {
     });
 }
 
-if($('#openMenu').length) {
+if($('#openMenu').length && $('#modalMenu').length) {
     let openMenu = $('#openMenu');
+    let modalMenu = $('#modalMenu');
+    let closeMenu = $('#closeMenu');
     openMenu.click(() => {
-        console.log('click click haha')
+        modalMenu.show();
+        $("body").css("overflow", "hidden");
+    });
+
+    closeMenu.click(() => {
+        modalMenu.hide();
+        $("body").css("overflow", "visible");
     })
 }
