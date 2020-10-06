@@ -1,5 +1,6 @@
 $slightRed: #ff6366;
-
+$darkRed: #be4d4e;
+$bodyColor: #dae0e6;
 * {
     padding: 0;
     margin: 0;
@@ -8,7 +9,7 @@ $slightRed: #ff6366;
 body {
     display:flex;
     flex-direction:column;
-    background-color: #dae0e6;
+    background-color: $bodyColor;
 }
 
 #hero {
@@ -92,9 +93,10 @@ li.paragraph {
 footer {
     padding-top: 1%;
     padding-bottom: 1%;
-    border-top: #1a202c 0.5px solid;
+    filter: drop-shadow(0px -2px 2px #000000);
     width: 100%;
-    background-color: #dae0e6;
+    background-color: $darkRed;
+    color: white;
     p {
         margin-bottom: 0;
     }
@@ -106,6 +108,14 @@ footer {
         bottom: 0;
         left:0;
         right:0;
+    }
+
+    a {
+        color: white;
+        text-underline: #a0aec0;
+        &:visited &:hover {
+            color: white;
+        }
     }
 
 }
