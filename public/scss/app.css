@@ -6285,8 +6285,8 @@ footer a:visited footer a:hover {
   text-align: center;
   background-color: black;
   opacity: 0.8;
-  -webkit-backdrop-filter: blur(2px);
-          backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
   color: white;
   width: 100%;
   height: 100vh;
@@ -6310,11 +6310,18 @@ footer a:visited footer a:hover {
 #modalMenu p a {
   font-size: xx-large;
   font-family: "Nunito", sans-serif;
+  color: white;
+  border-bottom: #be4d4e 3px solid;
 }
 
 #modalMenu p a:visited,
 #modalMenu p a:hover {
+  text-decoration: none;
   color: white;
+}
+
+#modalMenu p a:hover {
+  border-bottom: 5px;
 }
 
 #modalMenu .title {
