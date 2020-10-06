@@ -27,5 +27,9 @@
         </div>
     </div>
     <h2 class="title">Nous contacter</h2>
-    <p class="paragraph">Un problème ? contactez nous aux coordonnées suivantes</p>
+    <p class="paragraph">Un problème ? contactez nous aux coordonnées suivantes :</p>
+    <ul>
+        <li class="paragraph">📧 Mail : <a href="mailto:example@example.com">example@example.com</a></li>
+        <li class="paragraph">📞Téléphone : (+33) 06 06 06 06 06</li>
+    </ul>
 @endsection
