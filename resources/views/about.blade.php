@@ -26,6 +26,7 @@
             <img src="/svg/playfulcat.svg" alt="" class="svgLanding">
         </div>
     </div>
+    <hr>
     <h2 class="title">Nous contacter</h2>
     <p class="paragraph">Un problème ? contactez nous aux coordonnées suivantes :</p>
     <ul>
