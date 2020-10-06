@@ -45,3 +45,10 @@ if($('#addMusicButton').length && $('#removeMusicButton')) {
         window.location = `/removetrack/${music}`;
     });
 }
+
+if($('#openMenu').length) {
+    let openMenu = $('#openMenu');
+    openMenu.click(() => {
+        console.log('click click haha')
+    })
+}

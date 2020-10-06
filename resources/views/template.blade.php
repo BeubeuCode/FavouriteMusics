@@ -12,16 +12,34 @@
         <link rel="stylesheet" href="/scss/app.css">
     </head>
     <body>
-        <nav class="navbar navbar-light bg-light">
+        <nav class="navbar">
             <a class="navbar-brand mb-0 h1" href="/">🎶 FavMus</a>
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="/account">
-                        Mon compte
-                    </a>
-                </li>
-            </ul>
+            <span id="openMenu">Menu</span>
         </nav>
+        {{--
+        <nav class="navbar navbar-light bg-light navbar-nav">
+            <a class="navbar-brand mb-0 h1" href="/">🎶 FavMus</a>
+            <div>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
+                        <a href="#" role="button" data-toggle="dropdown" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" aria-haspopup="true" aria-expanded="false">
+                            Menu
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="/account">
+                                Mon compte
+                            </a>
+                            <a href="/profiles" class="dropdown-item">
+                                Les profils
+                            </a>
+                        </div>
+
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        --}}
+
         @yield('hero')
         <div class="container" id="primaryContainer">
             @yield('content')

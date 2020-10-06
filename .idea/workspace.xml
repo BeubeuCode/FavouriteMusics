@@ -19,11 +19,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ec5d3b8-b506-4fa9-94e2-2db72db4d003" name="Default Changelist" comment="connectAndSearch method : done !">
-      <change afterPath="$PROJECT_DIR$/public/svg/adduser.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/vendor/@fortawesome/fontawesome-free/webfa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/vendor/@fortawesome/fontawesome-free/webfa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/vendor/@fortawesome/fontawesome-free/webfa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/vendor/@fortawesome/fontawesome-free/webfa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/vendor/@fortawesome/fontawesome-free/webfa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/vendor/@fortawesome/fontawesome-free/webfa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/vendor/@fortawesome/fontawesome-free/webfa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/vendor/@fortawesome/fontawesome-free/webfa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/vendor/@fortawesome/fontawesome-free/webfa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/vendor/@fortawesome/fontawesome-free/webfa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/vendor/@fortawesome/fontawesome-free/webfa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/vendor/@fortawesome/fontawesome-free/webfa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/vendor/@fortawesome/fontawesome-free/webfa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/vendor/@fortawesome/fontawesome-free/webfa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/vendor/@fortawesome/fontawesome-free/webfa-solid-900.woff2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/scss/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/scss/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/scss/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/template.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/template.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +54,12 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.3">
     <include_path>
@@ -166,7 +190,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/artisan" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="PHP Script.laravel artisan serve">
@@ -204,182 +228,21 @@
       <workItem from="1601629179826" duration="2748000" />
       <workItem from="1601636008277" duration="6460000" />
       <workItem from="1601647414221" duration="5226000" />
-      <workItem from="1601715932932" duration="2678000" />
-    </task>
-    <task id="LOCAL-00001" summary="margin bottom on button">
-      <created>1601467639602</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1601467639602</updated>
-    </task>
-    <task id="LOCAL-00002" summary="changed title tag and styling">
-      <created>1601468180820</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1601468180820</updated>
-    </task>
-    <task id="LOCAL-00003" summary="added Spotify API and searched for sabaton">
-      <created>1601473707486</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1601473707486</updated>
-    </task>
-    <task id="LOCAL-00004" summary="connectAndSearch method : done !">
-      <created>1601476702807</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1601476702807</updated>
-    </task>
-    <task id="LOCAL-00005" summary="BEGONE, TYPE ANOTATION">
-      <created>1601480086972</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1601480086972</updated>
-    </task>
-    <task id="LOCAL-00006" summary="home page modifications + styling">
-      <created>1601481108117</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1601481108117</updated>
-    </task>
-    <task id="LOCAL-00007" summary="title format">
-      <created>1601482134152</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1601482134152</updated>
-    </task>
-    <task id="LOCAL-00008" summary="valid query types in SpotifyController.php">
-      <created>1601538765098</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1601538765098</updated>
-    </task>
-    <task id="LOCAL-00009" summary="query type check">
-      <created>1601540404947</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1601540404947</updated>
-    </task>
-    <task id="LOCAL-00010" summary="getTrack method in SpotifyController.php">
-      <created>1601541588379</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1601541588379</updated>
-    </task>
-    <task id="LOCAL-00011" summary="created createApiSession method, refactored it into methods">
-      <created>1601542130404</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1601542130404</updated>
-    </task>
-    <task id="LOCAL-00012" summary="getArtist method">
-      <created>1601542638125</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1601542638125</updated>
-    </task>
-    <task id="LOCAL-00013" summary="working towards login 👀">
-      <created>1601561151494</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1601561151494</updated>
-    </task>
-    <task id="LOCAL-00014" summary="form file createed">
-      <created>1601561524904</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1601561524904</updated>
-    </task>
-    <task id="LOCAL-00015" summary="post method">
-      <created>1601565073476</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1601565073477</updated>
-    </task>
-    <task id="LOCAL-00016" summary="FORMS ARE DONE !">
-      <created>1601566523828</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1601566523828</updated>
-    </task>
-    <task id="LOCAL-00017" summary="account creation works">
-      <created>1601631188099</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1601631188099</updated>
-    </task>
-    <task id="LOCAL-00018" summary="checking password equality, need actual code">
-      <created>1601631367699</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1601631367699</updated>
-    </task>
-    <task id="LOCAL-00019" summary="CHECKS">
-      <created>1601631907406</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1601631907406</updated>
-    </task>
-    <task id="LOCAL-00020" summary="password equality verification DONE !">
-      <created>1601636762303</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1601636762303</updated>
-    </task>
-    <task id="LOCAL-00021" summary="Error message on incorrect password">
-      <created>1601639938728</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1601639938728</updated>
-    </task>
-    <task id="LOCAL-00022" summary="Error message on page">
-      <created>1601640005764</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1601640005764</updated>
-    </task>
-    <task id="LOCAL-00023" summary="routes to get tracks, artists and albums through json in the API middleware">
-      <created>1601641271892</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1601641271892</updated>
-    </task>
-    <task id="LOCAL-00024" summary="LOGIN IS WORKING">
-      <created>1601641914860</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1601641914860</updated>
-    </task>
-    <task id="LOCAL-00025" summary="created account view">
-      <created>1601642219945</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1601642219945</updated>
+      <workItem from="1601715932932" duration="3340000" />
+      <workItem from="1601726056643" duration="5516000" />
+      <workItem from="1601737508718" duration="2902000" />
+      <workItem from="1601740821143" duration="664000" />
+      <workItem from="1601750534977" duration="290000" />
+      <workItem from="1601803471247" duration="1234000" />
+      <workItem from="1601810586233" duration="8922000" />
+      <workItem from="1601823768952" duration="5616000" />
+      <workItem from="1601886367591" duration="101000" />
+      <workItem from="1601886491093" duration="4646000" />
+      <workItem from="1601900890853" duration="5210000" />
+      <workItem from="1601914467376" duration="2782000" />
+      <workItem from="1601921503623" duration="4851000" />
+      <workItem from="1601974304316" duration="3455000" />
+      <workItem from="1601983021384" duration="2790000" />
     </task>
     <task id="LOCAL-00026" summary="changed title">
       <created>1601642322728</created>
@@ -409,7 +272,322 @@
       <option name="project" value="LOCAL" />
       <updated>1601715983189</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="added other section on home page">
+      <created>1601718769821</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1601718769822</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Created ProfileController.php and added showProfile function">
+      <created>1601726362281</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1601726362281</updated>
+    </task>
+    <task id="LOCAL-00032" summary="profile modifications (image, layout on PC...)">
+      <created>1601730020367</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1601730020367</updated>
+    </task>
+    <task id="LOCAL-00033" summary="now able to see another user's profile">
+      <created>1601730574277</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1601730574277</updated>
+    </task>
+    <task id="LOCAL-00034" summary="code to check fav musics (need to create the system for that)">
+      <created>1601732332159</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1601732332159</updated>
+    </task>
+    <task id="LOCAL-00035" summary="liked songs implemented">
+      <created>1601740077830</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1601740077830</updated>
+    </task>
+    <task id="LOCAL-00036" summary="UserSettingsController.php and addFavouriteGenre">
+      <created>1601741466187</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1601741466188</updated>
+    </task>
+    <task id="LOCAL-00037" summary="remove favourite genre">
+      <created>1601750708613</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1601750708613</updated>
+    </task>
+    <task id="LOCAL-00038" summary="add favourite music">
+      <created>1601804078132</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1601804078132</updated>
+    </task>
+    <task id="LOCAL-00039" summary="removeFavouriteMusic">
+      <created>1601804561584</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1601804561584</updated>
+    </task>
+    <task id="LOCAL-00040" summary="removed $request from all methods">
+      <created>1601810767017</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1601810767017</updated>
+    </task>
+    <task id="LOCAL-00041" summary="unordored list for gavorite genres">
+      <created>1601811082165</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1601811082165</updated>
+    </task>
+    <task id="LOCAL-00042" summary="target ='_blank' sur liens spoty">
+      <created>1601812349473</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1601812349473</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Auth::id() returns null...">
+      <created>1601812396267</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1601812396267</updated>
+    </task>
+    <task id="LOCAL-00044" summary="it works !">
+      <created>1601812709593</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1601812709593</updated>
+    </task>
+    <task id="LOCAL-00045" summary="searchAndAddTrackToAccount">
+      <created>1601815721616</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1601815721616</updated>
+    </task>
+    <task id="LOCAL-00046" summary="searchAndAddTrackToAccount + profile list">
+      <created>1601819357520</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1601819357520</updated>
+    </task>
+    <task id="LOCAL-00047" summary="profile list on home">
+      <created>1601819381432</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1601819381432</updated>
+    </task>
+    <task id="LOCAL-00048" summary="removed dots">
+      <created>1601819517980</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1601819517980</updated>
+    </task>
+    <task id="LOCAL-00049" summary="account settings">
+      <created>1601825406275</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1601825406275</updated>
+    </task>
+    <task id="LOCAL-00050" summary="remove genres">
+      <created>1601825437936</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1601825437936</updated>
+    </task>
+    <task id="LOCAL-00051" summary="remove genres optimisation and adding to route">
+      <created>1601825458198</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1601825458198</updated>
+    </task>
+    <task id="LOCAL-00052" summary="addkeyword js code">
+      <created>1601826323730</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1601826323730</updated>
+    </task>
+    <task id="LOCAL-00053" summary="route">
+      <created>1601826442562</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1601826442562</updated>
+    </task>
+    <task id="LOCAL-00054" summary="small mistake, incorrect id to add genre">
+      <created>1601826521739</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1601826521739</updated>
+    </task>
+    <task id="LOCAL-00055" summary="edited removeFavouriteMusic">
+      <created>1601828031474</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1601828031475</updated>
+    </task>
+    <task id="LOCAL-00056" summary="columns for settings">
+      <created>1601828360419</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1601828360419</updated>
+    </task>
+    <task id="LOCAL-00057" summary="newMusicInput">
+      <created>1601829321280</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1601829321280</updated>
+    </task>
+    <task id="LOCAL-00058" summary="checking user ID in profile.blade.php for params">
+      <created>1601886758874</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1601886758874</updated>
+    </task>
+    <task id="LOCAL-00059" summary="addmusic js">
+      <created>1601889971537</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1601889971537</updated>
+    </task>
+    <task id="LOCAL-00060" summary="check if music exists">
+      <created>1601890100381</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1601890100381</updated>
+    </task>
+    <task id="LOCAL-00061" summary="added jquery as a lib">
+      <created>1601890119987</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1601890119987</updated>
+    </task>
+    <task id="LOCAL-00062" summary="changed gitignore">
+      <created>1601890155211</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1601890155211</updated>
+    </task>
+    <task id="LOCAL-00063" summary="home link in navbar">
+      <created>1601890393049</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1601890393049</updated>
+    </task>
+    <task id="LOCAL-00064" summary="REMOVE TRACK DONE">
+      <created>1601904230082</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1601904230083</updated>
+    </task>
+    <task id="LOCAL-00065" summary="remove track js">
+      <created>1601904925767</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1601904925767</updated>
+    </task>
+    <task id="LOCAL-00066" summary="Remember Me">
+      <created>1601906182415</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1601906182415</updated>
+    </task>
+    <task id="LOCAL-00067" summary="hero">
+      <created>1601915215733</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1601915215733</updated>
+    </task>
+    <task id="LOCAL-00068" summary="created footer">
+      <created>1601921833731</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1601921833731</updated>
+    </task>
+    <task id="LOCAL-00069" summary="created legal and about pages">
+      <created>1601974452163</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1601974452163</updated>
+    </task>
+    <task id="LOCAL-00070" summary="created legal and about pages">
+      <created>1601974456896</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1601974456896</updated>
+    </task>
+    <task id="LOCAL-00071" summary="created usage">
+      <created>1601974831999</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1601974831999</updated>
+    </task>
+    <task id="LOCAL-00072" summary="legal, usage and about routes">
+      <created>1601974842984</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1601974842984</updated>
+    </task>
+    <task id="LOCAL-00073" summary="started working on about page">
+      <created>1601977335819</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1601977335819</updated>
+    </task>
+    <task id="LOCAL-00074" summary="about page finished">
+      <created>1601984116626</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1601984116626</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -429,32 +607,32 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="BEGONE, TYPE ANOTATION" />
-    <MESSAGE value="home page modifications + styling" />
-    <MESSAGE value="title format" />
-    <MESSAGE value="valid query types in SpotifyController.php" />
-    <MESSAGE value="query type check" />
-    <MESSAGE value="getTrack method in SpotifyController.php" />
-    <MESSAGE value="created createApiSession method, refactored it into methods" />
-    <MESSAGE value="getArtist method" />
-    <MESSAGE value="working towards login " />
-    <MESSAGE value="form file createed" />
-    <MESSAGE value="post method" />
-    <MESSAGE value="FORMS ARE DONE !" />
-    <MESSAGE value="account creation works" />
-    <MESSAGE value="checking password equality, need actual code" />
-    <MESSAGE value="CHECKS" />
-    <MESSAGE value="password equality verification DONE !" />
-    <MESSAGE value="Error message on incorrect password" />
-    <MESSAGE value="Error message on page" />
-    <MESSAGE value="routes to get tracks, artists and albums through json in the API middleware" />
-    <MESSAGE value="LOGIN IS WORKING" />
-    <MESSAGE value="created account view" />
-    <MESSAGE value="changed title" />
-    <MESSAGE value="actual method to show profle" />
-    <MESSAGE value="redirect when not logged in" />
-    <MESSAGE value="changed link for mon compte in nav" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed link for mon compte in nav" />
+    <MESSAGE value="account settings" />
+    <MESSAGE value="remove genres" />
+    <MESSAGE value="remove genres optimisation and adding to route" />
+    <MESSAGE value="addkeyword js code" />
+    <MESSAGE value="route" />
+    <MESSAGE value="small mistake, incorrect id to add genre" />
+    <MESSAGE value="edited removeFavouriteMusic" />
+    <MESSAGE value="columns for settings" />
+    <MESSAGE value="newMusicInput" />
+    <MESSAGE value="checking user ID in profile.blade.php for params" />
+    <MESSAGE value="addmusic js" />
+    <MESSAGE value="check if music exists" />
+    <MESSAGE value="added jquery as a lib" />
+    <MESSAGE value="changed gitignore" />
+    <MESSAGE value="home link in navbar" />
+    <MESSAGE value="REMOVE TRACK DONE" />
+    <MESSAGE value="remove track js" />
+    <MESSAGE value="Remember Me" />
+    <MESSAGE value="hero" />
+    <MESSAGE value="created footer" />
+    <MESSAGE value="created legal and about pages" />
+    <MESSAGE value="created usage" />
+    <MESSAGE value="legal, usage and about routes" />
+    <MESSAGE value="started working on about page" />
+    <MESSAGE value="about page finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="about page finished" />
   </component>
   <component name="WindowStateProjectService">
     <state x="742" y="232" key="#CLI_Interpreters" timestamp="1601636469208">
@@ -473,60 +651,94 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" width="1092" height="766" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601636534289" />
+    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1601726183399">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601726183399" />
     <state x="740" y="313" key="FileChooserDialogImpl" timestamp="1601636529949">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="313" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601636529949" />
-    <state width="938" height="281" key="GridCell.Tab.0.bottom" timestamp="1601717495818">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="228" key="GridCell.Tab.0.bottom" timestamp="1601984102070">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601641903109" />
-    <state width="938" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601717495818" />
-    <state width="938" height="281" key="GridCell.Tab.0.center" timestamp="1601717495817">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601906172230" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601906631313" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.418.1920.1040@0.0.1920.1040" timestamp="1601922422420" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.418.1920.1040@1920.418.1920.1040" timestamp="1601917252661" />
+    <state width="1877" height="228" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.418.1920.1050@0.0.1920.1050" timestamp="1601984102070" />
+    <state width="1877" height="228" key="GridCell.Tab.0.center" timestamp="1601984102070">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601641903109" />
-    <state width="938" height="281" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601717495817" />
-    <state width="938" height="281" key="GridCell.Tab.0.left" timestamp="1601717495817">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601906172229" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601906631312" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.418.1920.1040@0.0.1920.1040" timestamp="1601922422420" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.418.1920.1040@1920.418.1920.1040" timestamp="1601917252661" />
+    <state width="1877" height="228" key="GridCell.Tab.0.center/0.0.1920.1050/1920.418.1920.1050@0.0.1920.1050" timestamp="1601984102070" />
+    <state width="1877" height="228" key="GridCell.Tab.0.left" timestamp="1601984102070">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601641903109" />
-    <state width="938" height="281" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601717495817" />
-    <state width="938" height="281" key="GridCell.Tab.0.right" timestamp="1601717495817">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601906172229" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601906631312" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.418.1920.1040@0.0.1920.1040" timestamp="1601922422419" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.418.1920.1040@1920.418.1920.1040" timestamp="1601917252661" />
+    <state width="1877" height="228" key="GridCell.Tab.0.left/0.0.1920.1050/1920.418.1920.1050@0.0.1920.1050" timestamp="1601984102070" />
+    <state width="1877" height="228" key="GridCell.Tab.0.right" timestamp="1601984102070">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601641903109" />
-    <state width="938" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601717495817" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601906172230" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601906631312" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.418.1920.1040@0.0.1920.1040" timestamp="1601922422420" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.418.1920.1040@1920.418.1920.1040" timestamp="1601917252661" />
+    <state width="1877" height="228" key="GridCell.Tab.0.right/0.0.1920.1050/1920.418.1920.1050@0.0.1920.1050" timestamp="1601984102070" />
     <state x="2714" y="443" key="NewPhpFileDialog" timestamp="1601565788544">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2714" y="443" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601565788544" />
-    <state x="787" y="222" key="RollbackChangesDialog" timestamp="1601544482807">
+    <state x="787" y="222" key="RollbackChangesDialog" timestamp="1601904607099">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="787" y="222" key="RollbackChangesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601544482807" />
-    <state x="651" y="205" key="SettingsEditor" timestamp="1601716123712">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="787" y="222" key="RollbackChangesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601904607099" />
+    <state x="1965" y="154" key="SettingsEditor" timestamp="1601887796053">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="1982" y="138" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601642237008" />
-    <state x="651" y="205" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601716123712" />
+    <state x="1982" y="138" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601886467365" />
+    <state x="1965" y="154" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601887796053" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1601580511873">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601580511873" />
-    <state x="2384" y="246" key="Vcs.Push.Dialog.v2" timestamp="1601642859906">
+    <state x="464" y="248" key="Vcs.Push.Dialog.v2" timestamp="1601977338865">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="464" y="246" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601819520322" />
+    <state x="2384" y="246" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601890398869" />
+    <state x="464" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.418.1920.1050@0.0.1920.1050" timestamp="1601977338865" />
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601905267032">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601905267031" />
+    <state x="2085" y="52" width="1419" height="849" key="dock-window-1" timestamp="1601903538345">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="464" y="246" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601642222455" />
-    <state x="2384" y="246" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601642859906" />
-    <state x="1834" y="214" width="1893" height="731" key="dock-window-1" timestamp="1601642869755">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
+    <state x="2085" y="52" width="1419" height="849" key="dock-window-1/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601903538345" />
     <state x="1834" y="214" width="1893" height="731" key="dock-window-1/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601642869755" />
-    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1601717764112">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="667" y="119" width="585" height="801" key="find.popup" timestamp="1601900914054">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601651880847" />
-    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601717764112" />
+    <state x="667" y="119" width="585" height="801" key="find.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601900914054" />
+    <state x="616" y="242" key="run.anything.popup" timestamp="1601976596600">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="2536" y="240" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601890389749" />
+    <state x="616" y="242" key="run.anything.popup/0.0.1920.1050/1920.418.1920.1050@0.0.1920.1050" timestamp="1601976596600" />
+    <state x="623" y="227" width="672" height="685" key="search.everywhere.popup" timestamp="1601984472302">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601906098280" />
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601890535158" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.418.1920.1040@0.0.1920.1040" timestamp="1601922173012" />
+    <state x="2543" y="643" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.418.1920.1040@1920.418.1920.1040" timestamp="1601916996941" />
+    <state x="623" y="227" width="672" height="685" key="search.everywhere.popup/0.0.1920.1050/1920.418.1920.1050@0.0.1920.1050" timestamp="1601984472302" />
   </component>
 </project>
