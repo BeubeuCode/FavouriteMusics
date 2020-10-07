@@ -1,6 +1,9 @@
 @extends('template')
 @section('title') Se connecter @endsection
 @section('content')
+    @if(isset($loginFail))
+        <p class="paragraph" style="color:red;">Adresse mail ou mot de passe incorrect</p>
+    @endif
     <h2 class="title">Se connecter</h2>
     <form action="/loginaccount" method="POST">
         @csrf
