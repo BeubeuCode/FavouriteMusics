@@ -28,7 +28,7 @@ body {
 }
 
 .navbar {
-    background-color: $slightRed;
+    background-color: $darkRed;
 }
 
 .title {
@@ -62,14 +62,18 @@ body {
     margin-top: 2%;
 }
 .btn {
+    border-radius: .65rem;
     margin-bottom: 1px;
 }
 
 .btn-colored {
     background-color: $slightRed;
     color: white;
+    &:hover {
+        color: white;
+        background-color: $darkRed;
+    }
 }
-
 
 
 .navbar-brand {
@@ -93,7 +97,7 @@ li.paragraph {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: $slightRed;
+    background-color: $darkRed;
     color: white;
     flex-direction: column;
     .paragraph {
@@ -105,7 +109,7 @@ li.paragraph {
 footer {
     padding-top: 1%;
     padding-bottom: 1%;
-    filter: drop-shadow(0px -2px 2px #000000);
+    //filter: drop-shadow(0px -2px 2px #000000);
     width: 100%;
     background-color: $darkRed;
     color: white;
@@ -192,5 +196,5 @@ footer {
 
 ::-webkit-scrollbar-thumb {
     border-radius: 25px;
-    background-color: $darkRed;
+    background-color: $slightRed;
 }

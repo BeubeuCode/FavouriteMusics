@@ -6164,7 +6164,7 @@ body {
 }
 
 .navbar {
-  background-color: #ff6366;
+  background-color: #be4d4e;
 }
 
 .title {
@@ -6197,12 +6197,18 @@ body {
 }
 
 .btn {
+  border-radius: 0.65rem;
   margin-bottom: 1px;
 }
 
 .btn-colored {
   background-color: #ff6366;
   color: white;
+}
+
+.btn-colored:hover {
+  color: white;
+  background-color: #be4d4e;
 }
 
 .navbar-brand {
@@ -6226,7 +6232,7 @@ li.paragraph {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #ff6366;
+  background-color: #be4d4e;
   color: white;
   flex-direction: column;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 77%, 0% 100%);
@@ -6240,7 +6246,6 @@ li.paragraph {
 footer {
   padding-top: 1%;
   padding-bottom: 1%;
-  filter: drop-shadow(0px -2px 2px #000000);
   width: 100%;
   background-color: #be4d4e;
   color: white;
@@ -6335,6 +6340,6 @@ footer a:visited footer a:hover {
 
 ::-webkit-scrollbar-thumb {
   border-radius: 25px;
-  background-color: #be4d4e;
+  background-color: #ff6366;
 }
 
