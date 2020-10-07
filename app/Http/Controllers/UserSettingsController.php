@@ -14,10 +14,18 @@ class UserSettingsController extends Controller
     public function addFavouriteGenre($newGenre) {
         $user = Auth::user();
         $genresReq = LikedGenres::where('user_id', $user->id)->first();
-        $genres = $genresReq->favgenres;
-        $genres = $genres . ',' . $newGenre;
-        $genresReq->favgenres = $genres;
-        $genresReq->save();
+        if($genresReq != null) {
+            $genres = $genresReq->favgenres;
+            $genres = $genres . ',' . $newGenre;
+            $genresReq->favgenres = $genres;
+            $genresReq->save();
+        } else {
+            $genresReq = new LikedGenres;
+            $genresReq->user_id = Auth::id();
+            $genresReq->favgenres = $newGenre;
+            $genresReq->save();
+        }
+
         return Redirect::back();
     }
 
