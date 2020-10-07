@@ -26,13 +26,19 @@
 
         <h1 class="title">FavMus</h1>
         <p>
-            <a href="/account">Mon compte</a>
+            @if(\Illuminate\Support\Facades\Auth::user() != null)
+                <a href="/account">Mon compte</a>
+                <br>
+                <a href="/logout">Me déconnecter</a>
+            @else
+                <a href="/login">Se connecter</a>
+                <br>
+                <a href="/logout">S'inscrire</a>
+            @endif
             <br>
             <a href="/profiles">Profils</a>
             <br>
-            @if(\Illuminate\Support\Facades\Auth::user() != null)
-                <a href="/logout">Me déconnecter</a>
-            @endif
+
         </p>
     </div>
     <div id="content">
