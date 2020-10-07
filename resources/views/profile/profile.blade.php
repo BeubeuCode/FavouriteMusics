@@ -79,7 +79,7 @@
                         <input type="text" class="form-control" name="oldMusicInput" id="oldMusicInput">
                         <small id="musicHelp" class="form-text text-muted">Respectez la casse ! (majuscules/minuscules)"</small>
                         <br>
-                        <button class="btn btn-colored" id="removeMusicButton">Ajouter</button>
+                        <button class="btn btn-colored" id="removeMusicButton">Enlever</button>
                     </div>
                 </div>
             </div>
