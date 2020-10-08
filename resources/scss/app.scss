@@ -28,7 +28,31 @@ body {
 }
 
 .navbar {
+    .navbar-brand {
+        color: black;
+    }
+
+    #openMenu {
+        color: black;
+    }
+
+    &.darkRed {
+        background-color: $darkRed;
+        .navbar-brand {
+            color: white;
+        }
+
+        #openMenu {
+            color: white;
+        }
+    }
+}
+
+.navbar .darkRed {
     background-color: $darkRed;
+    .navbar-brand {
+        color: white !important;
+    }
 }
 
 .title {
@@ -58,7 +82,7 @@ body {
 }
 
 #primaryContainer {
-    min-height: 80vh;
+    min-height: 78vh;
     margin-top: 2%;
 }
 .btn {
@@ -76,9 +100,7 @@ body {
 }
 
 
-.navbar-brand {
-    color: white !important;
-}
+
 
 .tilted {
     transform: rotate(-1deg);

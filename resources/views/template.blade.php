@@ -42,11 +42,17 @@
         </p>
     </div>
     <div id="content">
-        <nav class="navbar">
+        @if(Request::path() ==  '/')
+        <nav class="navbar darkRed">
             <a class="navbar-brand mb-0 h1" href="/">🎶 FavMus</a>
             <span id="openMenu"><i class="fas fa-bars"></i></span>
         </nav>
-
+        @else
+            <nav class="navbar">
+                <a class="navbar-brand mb-0 h1" href="/">🎶 FavMus</a>
+                <span id="openMenu"><i class="fas fa-bars"></i></span>
+            </nav>
+        @endif
 
         @yield('hero')
         <div class="container" id="primaryContainer">

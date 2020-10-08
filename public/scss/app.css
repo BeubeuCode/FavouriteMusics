@@ -6163,8 +6163,32 @@ body {
   align-items: center;
 }
 
-.navbar {
+.navbar .navbar-brand {
+  color: black;
+}
+
+.navbar #openMenu {
+  color: black;
+}
+
+.navbar.darkRed {
   background-color: #be4d4e;
+}
+
+.navbar.darkRed .navbar-brand {
+  color: white;
+}
+
+.navbar.darkRed #openMenu {
+  color: white;
+}
+
+.navbar .darkRed {
+  background-color: #be4d4e;
+}
+
+.navbar .darkRed .navbar-brand {
+  color: white !important;
 }
 
 .title {
@@ -6192,7 +6216,7 @@ body {
 }
 
 #primaryContainer {
-  min-height: 80vh;
+  min-height: 78vh;
   margin-top: 2%;
 }
 
@@ -6209,10 +6233,6 @@ body {
 .btn-colored:hover {
   color: white;
   background-color: #be4d4e;
-}
-
-.navbar-brand {
-  color: white !important;
 }
 
 .tilted {
