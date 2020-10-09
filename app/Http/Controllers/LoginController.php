@@ -18,7 +18,7 @@ class LoginController extends Controller
         if(Auth::attempt($creds, $request->rememberMe)) { return redirect('/account'); }
         else {
             $loginFail = true;
-            return Response::redirectTo('/login')->with('loginFail');
+            return Redirect('/login')->with('loginFail', 'true');
         }
     }
 

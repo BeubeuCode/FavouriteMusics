@@ -21,17 +21,17 @@ use App\Http\Controllers\UserSettingsController;
 
 Route::get('/', function () {
     return view('home');
-});
+})->name('index');
 
 Route::get('/callback', [SpotifyController::class, 'connectAndSearch']);
 
 Route::get('/logout', function() {
     Auth::logout();
     return redirect('/');
-});
+})->name('logout');
 
-Route::get('/register',  [LoginController::class, 'registerForm']);
-Route::get('/login',  [LoginController::class, 'loginForm']);
+Route::get('/register',  [LoginController::class, 'registerForm'])->name('register');
+Route::get('/login',  [LoginController::class, 'loginForm'])->name('login');
 Route::get('/legal', function() {
     return view('legal');
 });
