@@ -115,5 +115,12 @@ class SpotifyController extends Controller
         return Response::redirectTo('/addmusic/'.$result->id.'/'.$result->name.'/'.$result->artists[0]->name);
     }
 
+    public static function getTrackArt(string $trackId) {
+        $spotifyController = new SpotifyController();
+        $spotifyController->createApiSession($spotifyController->connect());
+        $trackInfo = $spotifyController->getTrack($trackId);
+        return $trackInfo->images[0]->url;
+
+    }
 
 }

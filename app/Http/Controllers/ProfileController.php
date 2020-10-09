@@ -16,7 +16,6 @@ class ProfileController extends Controller
         return 'https://www.gravatar.com/avatar/'. $emailHash . '?s=' . $size ;
     }
 
-
     public function showProfile() {
         $user = Auth::user();
         if($user === null) { return Response::redirectTo('/login'); }
