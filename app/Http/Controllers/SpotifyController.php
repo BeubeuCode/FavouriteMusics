@@ -118,6 +118,7 @@ class SpotifyController extends Controller
     public static function getTrackArt(string $trackId) {
         $spotifyController = new SpotifyController();
         $spotifyController->createApiSession($spotifyController->connect());
+        echo 'connected';
         $trackInfo = $spotifyController->getTrack($trackId);
         return $trackInfo->images[0]->url;
 
