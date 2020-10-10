@@ -6,6 +6,7 @@
 $slightRed: #ff6366;
 $darkRed: #be4d4e;
 $bodyColor: #dae0e6;
+
 * {
     padding: 0;
     margin: 0;
@@ -16,6 +17,17 @@ body {
     display:flex;
     flex-direction:column;
     background-color: $bodyColor;
+    &.darkmode {
+        color: white;
+
+        background-color: #26292b;
+        .navbar-brand, #openMenu{
+            color: white;
+        }
+
+    }
+
+
 }
 
 #hero {
