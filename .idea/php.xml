@@ -111,6 +111,7 @@
       <path value="$PROJECT_DIR$/vendor/psy/psysh" />
       <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
       <path value="$PROJECT_DIR$/vendor/jwilsson/spotify-web-api-php" />
+      <path value="$PROJECT_DIR$/vendor/spatie/laravel-cookie-consent" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.3" />

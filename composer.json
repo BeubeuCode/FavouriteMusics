@@ -14,7 +14,8 @@
         "guzzlehttp/guzzle": "^7.0.1",
         "jwilsson/spotify-web-api-php": "^3.6",
         "laravel/framework": "^8.0",
-        "laravel/tinker": "^2.0"
+        "laravel/tinker": "^2.0",
+        "spatie/laravel-cookie-consent": "^2.12"
     },
     "require-dev": {
         "facade/ignition": "^2.3.6",
