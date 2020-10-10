@@ -232,3 +232,22 @@ footer {
     border-radius: 25px;
     background-color: $slightRed;
 }
+.cookie-consent {
+    padding: 0.5% 0.5%;
+    text-align: center;
+    background-color: $darkRed;
+    .cookie-consent__message {
+        color: white;
+    }
+
+    .cookie-consent__agree {
+        padding: 0.3% 0.3%;
+        border: none;
+        border-radius: .35rem;
+        color: white;
+        background-color: $slightRed;
+    }
+}
+
+
+

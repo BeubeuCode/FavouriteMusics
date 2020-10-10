@@ -6373,3 +6373,21 @@ footer a:visited footer a:hover {
   background-color: #ff6366;
 }
 
+.cookie-consent {
+  padding: 0.5% 0.5%;
+  text-align: center;
+  background-color: #be4d4e;
+}
+
+.cookie-consent .cookie-consent__message {
+  color: white;
+}
+
+.cookie-consent .cookie-consent__agree {
+  padding: 0.3% 0.3%;
+  border: none;
+  border-radius: 0.35rem;
+  color: white;
+  background-color: #ff6366;
+}
+

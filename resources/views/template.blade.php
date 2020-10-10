@@ -42,6 +42,7 @@
         </p>
     </div>
     <div id="content">
+        @include('cookieConsent::index')
         @if(Request::path() ==  '/')
         <nav class="navbar darkRed">
             <a class="navbar-brand mb-0 h1" href="/">🎶 FavMus</a>
