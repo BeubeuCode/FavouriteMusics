@@ -235,19 +235,21 @@ footer {
 .cookie-consent {
     padding: 0.5% 0.5%;
     text-align: center;
-    background-color: $darkRed;
+    background-color: hsl(34,68,90);
     .cookie-consent__message {
-        color: white;
+        font-family: "Roboto", sans-serif;
+
+        font-weight: bolder;
+        color: chocolate;
     }
 
     .cookie-consent__agree {
         padding: 0.3% 0.3%;
         border: none;
         border-radius: .35rem;
-        color: white;
-        background-color: $slightRed;
+        color: black;
+        background-color: darkorange;
     }
 }
-
 
 
