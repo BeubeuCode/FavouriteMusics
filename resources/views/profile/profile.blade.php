@@ -3,11 +3,11 @@
 @section('content')
     <hr>
     <div class="row">
-        <div class="col-md-4">
-            <div class="centered">
+        <div class="col-md-4 centered">
+            <div class="">
                 <h1 class="title">Profil</h1>
                 <img src="{{$profilePicture}}" alt="profile_picture" class="circleImage">
-                <p class="paragraph">{{$user->name}}</p>
+                <p class="paragraph">Compte de {{$user->name}}</p>
             </div>
 
         </div>
