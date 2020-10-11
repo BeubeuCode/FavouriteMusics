@@ -6333,6 +6333,7 @@ footer a:visited footer a:hover {
 }
 
 #modalMenu #closeMenu {
+  cursor: pointer;
   position: absolute;
   right: 10%;
   top: 5%;
