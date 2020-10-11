@@ -13,7 +13,7 @@
     <p class="paragraph">
         <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi debitis, ducimus ea et facilis hic id illum impedit iusto minus nesciunt nostrum placeat, quasi quos sapiente sunt, vel. Blanditiis, tempora!</span><span>Molestiae, quibusdam quidem. Ad at deleniti dolorem doloribus eius error minima molestias neque odio perferendis quae quo, repellendus, vero? Adipisci aliquid dolorum ipsam molestiae officia porro quidem quod suscipit unde!</span><span>Aliquam autem commodi consectetur consequatur distinctio dolorem, dolores error facere fugit hic ipsam libero nulla officia optio pariatur possimus repudiandae sed ullam veritatis vitae? Earum fugiat nostrum ratione sequi veritatis!</span>
     </p>
-    <h2 class="title">Politique de proteection des données personnelles</h2>
+    <h2 class="title">Politique de protection des données personnelles</h2>
     <p class="paragraph"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias architecto assumenda consectetur cumque dolore est exercitationem incidunt ipsa ipsum mollitia quae quisquam rem sapiente sequi, tempora tenetur vel voluptatum. Dolore?</span><span>Commodi illo incidunt officiis optio quasi reiciendis sed, veniam. Eaque enim error fugiat fugit maiores modi molestiae necessitatibus nisi odit praesentium quisquam reprehenderit suscipit tenetur veniam voluptas voluptate, voluptatibus! Quae!</span>
     </p>
     <h2 class="title">Autres obligations légales</h2>
