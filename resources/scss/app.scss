@@ -222,7 +222,7 @@ footer {
     .title {
         font-size: 3.5em;
     }
-}
+}d
 
 ::-webkit-scrollbar {
     width: 12px;
@@ -241,6 +241,13 @@ footer {
         font-family: "Roboto", sans-serif;
         font-weight: bolder;
         color: chocolate;
+        a {
+            text-decoration: underline;
+            color: chocolate;
+            &:hover, &:visited {
+                color: chocolate;
+            }
+        }
     }
 
     .cookie-consent__agree {

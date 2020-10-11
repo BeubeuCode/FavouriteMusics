@@ -6364,7 +6364,7 @@ footer a:visited footer a:hover {
   font-size: 3.5em;
 }
 
-::-webkit-scrollbar {
+d ::-webkit-scrollbar {
   width: 12px;
   background-color: #414141;
 }
@@ -6383,6 +6383,16 @@ footer a:visited footer a:hover {
 .cookie-consent .cookie-consent__message {
   font-family: "Roboto", sans-serif;
   font-weight: bolder;
+  color: chocolate;
+}
+
+.cookie-consent .cookie-consent__message a {
+  text-decoration: underline;
+  color: chocolate;
+}
+
+.cookie-consent .cookie-consent__message a:hover,
+.cookie-consent .cookie-consent__message a:visited {
   color: chocolate;
 }
 
