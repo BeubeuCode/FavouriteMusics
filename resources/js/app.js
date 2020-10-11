@@ -4,15 +4,29 @@ let firstField = document.getElementById("password1");
 let secondField = document.getElementById('password2');
 
 function checkPasswordEquality() {
+    let submitInscriptionForm = $('#createAccountButton');
     if(firstField.value !== secondField.value) {
         document.getElementById('incorrectPasswordText').style.display = 'block';
     } else {
         document.getElementById('incorrectPasswordText').style.display = 'none';
+        submitInscriptionForm.prop('disabled', false);
+
     }
 }
 if(firstField  && secondField) {
     firstField.onchange = checkPasswordEquality;
     secondField.onchange = checkPasswordEquality;
+}
+
+if($('#CGUConfirmation').length) {
+
+    $('#CGUConfirmation').click(() => {
+        if(!$('#CGUConfirmation').is(':checked')) {
+            $('#createAccountButton').prop('disabled', true);
+        } else if($('#CGUConfirmation').is(':checked')){
+            $('#createAccountButton').prop('disabled', false);
+        }
+    })
 }
 
 

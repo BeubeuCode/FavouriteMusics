@@ -25,7 +25,11 @@
             <p class="text-muted" id="incorrectPasswordText" style="color: red !important; display: none;">Les mots de passe doivent correspondre !</p>
         </div>
         <div class="form-group">
-            <input class="btn btn-colored" type="submit" value="S'inscrire">
+            <input type="checkbox" class="form-check-input" name="CGUConfirmation" id="CGUConfirmation">
+            <label class="paragraph" for="CGUConfirmation">J'affirme avoir pris connaissance des <a target="_blank" href="/usage-terms">conditions d'utilisation</a></label>
+        </div>
+        <div class="form-group">
+            <input id="createAccountButton" disabled class="btn btn-colored" type="submit" value="S'inscrire">
         </div>
     </form>
     <div class="card">
