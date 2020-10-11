@@ -5,7 +5,7 @@
     </span>
 
     <button class="js-cookie-consent-agree cookie-consent__agree">
-        Continuer
+        {{-- Continuer --}}<i class="fas fa-times"></i>
     </button>
 
 </div>

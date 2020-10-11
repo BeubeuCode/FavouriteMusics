@@ -6386,10 +6386,11 @@ footer a:visited footer a:hover {
 }
 
 .cookie-consent .cookie-consent__agree {
-  padding: 0.3% 0.3%;
+  position: absolute;
+  right: 2%;
+  font-weight: bolder;
   border: none;
-  border-radius: 0.35rem;
-  color: black;
-  background-color: darkorange;
+  background-color: #f7e8d4;
+  color: chocolate;
 }
 
