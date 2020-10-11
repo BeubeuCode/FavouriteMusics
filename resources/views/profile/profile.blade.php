@@ -5,9 +5,9 @@
     <div class="row">
         <div class="col-md-4">
             <div class="centered">
-                <img src="{{$profilePicture}}" alt="profile_picture" class="circleImage">
                 <h1 class="title">Profil</h1>
-                <p class="paragraph">Bonjour, {{$user->name}} !</p>
+                <img src="{{$profilePicture}}" alt="profile_picture" class="circleImage">
+                <p class="paragraph">{{$user->name}}</p>
             </div>
 
         </div>
