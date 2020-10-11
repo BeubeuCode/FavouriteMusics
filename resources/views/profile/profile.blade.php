@@ -33,7 +33,7 @@
                 @foreach($favsongs as $song)
                     <p class="paragraph"><b>{{$song->track_name}}</b> par <b>{{$song->track_artist}}</b>
                         <br>
-                        <a href="https://open.spotify.com/track/{{$song->track_id}}" target="_blank">Ecouter sur spotify</a>
+                        <a href="https://open.spotify.com/track/{{$song->track_id}}" target="_blank"><i class="fab fa-spotify"></i> Ecouter sur spotify</a>
 
                     </p>
                 @endforeach
