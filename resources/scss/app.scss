@@ -5,7 +5,8 @@
 
 $slightRed: #ff6366;
 $darkRed: #be4d4e;
-$bodyColor: #dae0e6;
+$oldbodyColor: #dae0e6;
+$bodyColor: white;
 
 * {
     padding: 0;
@@ -236,16 +237,16 @@ footer {
 .cookie-consent {
     padding: 0.5% 0.5%;
     text-align: center;
-    background-color: hsl(34,68,90);
+    background-color: white;
     .cookie-consent__message {
         font-family: "Roboto", sans-serif;
         font-weight: bolder;
-        color: chocolate;
+        color: $slightRed;
         a {
             text-decoration: underline;
-            color: chocolate;
+            color: $slightRed;
             &:hover, &:visited {
-                color: chocolate;
+                color: $slightRed;
             }
         }
     }
@@ -255,8 +256,8 @@ footer {
         right: 5%;
         font-weight: bolder;
         border: none;
-        background-color: hsl(34,68,90);
-        color: chocolate;
+        background-color: white;
+        color: $slightRed;
     }
 }
 
