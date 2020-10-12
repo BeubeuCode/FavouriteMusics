@@ -6398,7 +6398,7 @@ d ::-webkit-scrollbar {
 
 .cookie-consent .cookie-consent__agree {
   position: absolute;
-  right: 2%;
+  right: 5%;
   font-weight: bolder;
   border: none;
   background-color: #f7e8d4;
