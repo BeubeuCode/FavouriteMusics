@@ -11,7 +11,7 @@ use Illuminate\Support\Facades\Response;
 
 class ProfileController extends Controller
 {
-    private function getGravatarProfilePicture($email, $size) {
+    public static function getGravatarProfilePicture($email, $size) {
         $emailHash = md5(strtolower(trim($email)));
         return 'https://www.gravatar.com/avatar/'. $emailHash . '?s=' . $size ;
     }

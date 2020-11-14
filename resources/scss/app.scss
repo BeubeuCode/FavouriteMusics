@@ -241,12 +241,12 @@ footer {
     .cookie-consent__message {
         font-family: "Roboto", sans-serif;
         font-weight: bolder;
-        color: $slightRed;
+        color: black;
         a {
             text-decoration: underline;
-            color: $slightRed;
+            color: black;
             &:hover, &:visited {
-                color: $slightRed;
+                color: black;
             }
         }
     }
@@ -257,7 +257,7 @@ footer {
         font-weight: bolder;
         border: none;
         background-color: white;
-        color: $slightRed;
+        color: black;
     }
 }
 

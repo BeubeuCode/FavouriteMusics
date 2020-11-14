@@ -6383,17 +6383,17 @@ d ::-webkit-scrollbar {
 .cookie-consent .cookie-consent__message {
   font-family: "Roboto", sans-serif;
   font-weight: bolder;
-  color: #ff6366;
+  color: black;
 }
 
 .cookie-consent .cookie-consent__message a {
   text-decoration: underline;
-  color: #ff6366;
+  color: black;
 }
 
 .cookie-consent .cookie-consent__message a:hover,
 .cookie-consent .cookie-consent__message a:visited {
-  color: #ff6366;
+  color: black;
 }
 
 .cookie-consent .cookie-consent__agree {
@@ -6402,6 +6402,6 @@ d ::-webkit-scrollbar {
   font-weight: bolder;
   border: none;
   background-color: white;
-  color: #ff6366;
+  color: black;
 }
 

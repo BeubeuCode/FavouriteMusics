@@ -18,30 +18,16 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ec5d3b8-b506-4fa9-94e2-2db72db4d003" name="Default Changelist" comment="connectAndSearch method : done !">
-      <change afterPath="$PROJECT_DIR$/public/fonts/vendor/@fortawesome/fontawesome-free/webfa-brands-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/vendor/@fortawesome/fontawesome-free/webfa-brands-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/vendor/@fortawesome/fontawesome-free/webfa-brands-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/vendor/@fortawesome/fontawesome-free/webfa-brands-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/vendor/@fortawesome/fontawesome-free/webfa-brands-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/vendor/@fortawesome/fontawesome-free/webfa-regular-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/vendor/@fortawesome/fontawesome-free/webfa-regular-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/vendor/@fortawesome/fontawesome-free/webfa-regular-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/vendor/@fortawesome/fontawesome-free/webfa-regular-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/vendor/@fortawesome/fontawesome-free/webfa-regular-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/vendor/@fortawesome/fontawesome-free/webfa-solid-900.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/vendor/@fortawesome/fontawesome-free/webfa-solid-900.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/vendor/@fortawesome/fontawesome-free/webfa-solid-900.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/vendor/@fortawesome/fontawesome-free/webfa-solid-900.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/vendor/@fortawesome/fontawesome-free/webfa-solid-900.woff2" afterDir="false" />
+    <list default="true" id="7ec5d3b8-b506-4fa9-94e2-2db72db4d003" name="Default Changelist" comment="cursor pointer on #closeMenu">
+      <change afterPath="$PROJECT_DIR$/tests/Feature/GravatarTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProfileController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProfileController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/scss/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/scss/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/scss/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/template.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/template.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/usage.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/usage.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/ExampleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Unit/ExampleTest.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,6 +158,7 @@
       <path value="$PROJECT_DIR$/vendor/psy/psysh" />
       <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
       <path value="$PROJECT_DIR$/vendor/jwilsson/spotify-web-api-php" />
+      <path value="$PROJECT_DIR$/vendor/spatie/laravel-cookie-consent" />
     </include_path>
   </component>
   <component name="ProjectId" id="1iDqmJSct7I00UFSAtevvrb7wpp" />
@@ -190,10 +177,13 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/artisan" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+    <property name="settings.editor.selected.configurable" value="xyz.sleipnir.codeminimap.config.ConfigEntry" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="PHP Script.laravel artisan serve">
+    <configuration name="127.0.0.1:8000" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://127.0.0.1:8000">
+      <method v="2" />
+    </configuration>
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
       <method v="2" />
@@ -205,9 +195,15 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="PHP Script.laravel artisan serve" />
+      <item itemvalue="JavaScript Debug.127.0.0.1:8000" />
       <item itemvalue="PHPUnit.phpunit.xml" />
+      <item itemvalue="PHP Script.laravel artisan serve" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.127.0.0.1:8000" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -242,245 +238,28 @@
       <workItem from="1601914467376" duration="2782000" />
       <workItem from="1601921503623" duration="4851000" />
       <workItem from="1601974304316" duration="3455000" />
-      <workItem from="1601983021384" duration="2790000" />
-    </task>
-    <task id="LOCAL-00026" summary="changed title">
-      <created>1601642322728</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1601642322728</updated>
-    </task>
-    <task id="LOCAL-00027" summary="actual method to show profle">
-      <created>1601642856905</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1601642856905</updated>
-    </task>
-    <task id="LOCAL-00028" summary="redirect when not logged in">
-      <created>1601651928046</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1601651928046</updated>
-    </task>
-    <task id="LOCAL-00029" summary="changed link for mon compte in nav">
-      <created>1601715983189</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1601715983189</updated>
-    </task>
-    <task id="LOCAL-00030" summary="added other section on home page">
-      <created>1601718769821</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1601718769822</updated>
-    </task>
-    <task id="LOCAL-00031" summary="Created ProfileController.php and added showProfile function">
-      <created>1601726362281</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1601726362281</updated>
-    </task>
-    <task id="LOCAL-00032" summary="profile modifications (image, layout on PC...)">
-      <created>1601730020367</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1601730020367</updated>
-    </task>
-    <task id="LOCAL-00033" summary="now able to see another user's profile">
-      <created>1601730574277</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1601730574277</updated>
-    </task>
-    <task id="LOCAL-00034" summary="code to check fav musics (need to create the system for that)">
-      <created>1601732332159</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1601732332159</updated>
-    </task>
-    <task id="LOCAL-00035" summary="liked songs implemented">
-      <created>1601740077830</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1601740077830</updated>
-    </task>
-    <task id="LOCAL-00036" summary="UserSettingsController.php and addFavouriteGenre">
-      <created>1601741466187</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1601741466188</updated>
-    </task>
-    <task id="LOCAL-00037" summary="remove favourite genre">
-      <created>1601750708613</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1601750708613</updated>
-    </task>
-    <task id="LOCAL-00038" summary="add favourite music">
-      <created>1601804078132</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1601804078132</updated>
-    </task>
-    <task id="LOCAL-00039" summary="removeFavouriteMusic">
-      <created>1601804561584</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1601804561584</updated>
-    </task>
-    <task id="LOCAL-00040" summary="removed $request from all methods">
-      <created>1601810767017</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1601810767017</updated>
-    </task>
-    <task id="LOCAL-00041" summary="unordored list for gavorite genres">
-      <created>1601811082165</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1601811082165</updated>
-    </task>
-    <task id="LOCAL-00042" summary="target ='_blank' sur liens spoty">
-      <created>1601812349473</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1601812349473</updated>
-    </task>
-    <task id="LOCAL-00043" summary="Auth::id() returns null...">
-      <created>1601812396267</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1601812396267</updated>
-    </task>
-    <task id="LOCAL-00044" summary="it works !">
-      <created>1601812709593</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1601812709593</updated>
-    </task>
-    <task id="LOCAL-00045" summary="searchAndAddTrackToAccount">
-      <created>1601815721616</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1601815721616</updated>
-    </task>
-    <task id="LOCAL-00046" summary="searchAndAddTrackToAccount + profile list">
-      <created>1601819357520</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1601819357520</updated>
-    </task>
-    <task id="LOCAL-00047" summary="profile list on home">
-      <created>1601819381432</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1601819381432</updated>
-    </task>
-    <task id="LOCAL-00048" summary="removed dots">
-      <created>1601819517980</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1601819517980</updated>
-    </task>
-    <task id="LOCAL-00049" summary="account settings">
-      <created>1601825406275</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1601825406275</updated>
-    </task>
-    <task id="LOCAL-00050" summary="remove genres">
-      <created>1601825437936</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1601825437936</updated>
-    </task>
-    <task id="LOCAL-00051" summary="remove genres optimisation and adding to route">
-      <created>1601825458198</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1601825458198</updated>
-    </task>
-    <task id="LOCAL-00052" summary="addkeyword js code">
-      <created>1601826323730</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1601826323730</updated>
-    </task>
-    <task id="LOCAL-00053" summary="route">
-      <created>1601826442562</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1601826442562</updated>
-    </task>
-    <task id="LOCAL-00054" summary="small mistake, incorrect id to add genre">
-      <created>1601826521739</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1601826521739</updated>
-    </task>
-    <task id="LOCAL-00055" summary="edited removeFavouriteMusic">
-      <created>1601828031474</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1601828031475</updated>
-    </task>
-    <task id="LOCAL-00056" summary="columns for settings">
-      <created>1601828360419</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1601828360419</updated>
-    </task>
-    <task id="LOCAL-00057" summary="newMusicInput">
-      <created>1601829321280</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1601829321280</updated>
-    </task>
-    <task id="LOCAL-00058" summary="checking user ID in profile.blade.php for params">
-      <created>1601886758874</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1601886758874</updated>
-    </task>
-    <task id="LOCAL-00059" summary="addmusic js">
-      <created>1601889971537</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1601889971537</updated>
+      <workItem from="1601983021384" duration="7527000" />
+      <workItem from="1601991692826" duration="1753000" />
+      <workItem from="1601996125562" duration="3651000" />
+      <workItem from="1602012157818" duration="1645000" />
+      <workItem from="1602075547130" duration="4124000" />
+      <workItem from="1602160372695" duration="1672000" />
+      <workItem from="1602183927780" duration="66000" />
+      <workItem from="1602184010440" duration="55000" />
+      <workItem from="1602184768978" duration="2753000" />
+      <workItem from="1602243050980" duration="4409000" />
+      <workItem from="1602345449983" duration="4032000" />
+      <workItem from="1602356103555" duration="1865000" />
+      <workItem from="1602406871602" duration="1254000" />
+      <workItem from="1602424847850" duration="5790000" />
+      <workItem from="1602435097253" duration="798000" />
+      <workItem from="1602440136668" duration="3345000" />
+      <workItem from="1602529685766" duration="2596000" />
+      <workItem from="1602586153630" duration="613000" />
+      <workItem from="1602847351286" duration="599000" />
+      <workItem from="1603192452717" duration="10000" />
+      <workItem from="1603536356439" duration="740000" />
+      <workItem from="1605372427936" duration="143000" />
     </task>
     <task id="LOCAL-00060" summary="check if music exists">
       <created>1601890100381</created>
@@ -587,7 +366,245 @@
       <option name="project" value="LOCAL" />
       <updated>1601984116626</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="added font awesome and finna make MY navbar">
+      <created>1601985890851</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1601985890851</updated>
+    </task>
+    <task id="LOCAL-00076" summary="navbar + modal DONE !">
+      <created>1601989223944</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1601989223944</updated>
+    </task>
+    <task id="LOCAL-00077" summary="scrollbar">
+      <created>1601990540777</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1601990540778</updated>
+    </task>
+    <task id="LOCAL-00078" summary="changed blur">
+      <created>1601997723215</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1601997723216</updated>
+    </task>
+    <task id="LOCAL-00079" summary="footer legal and usage">
+      <created>1601997827453</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1601997827453</updated>
+    </task>
+    <task id="LOCAL-00080" summary="séparation qui sommes nous/ notre culture">
+      <created>1601997862193</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1601997862193</updated>
+    </task>
+    <task id="LOCAL-00081" summary="ajout déconnexion">
+      <created>1602000058810</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1602000058810</updated>
+    </task>
+    <task id="LOCAL-00082" summary="navbar changes + footer on all pages fuck it">
+      <created>1602012987680</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1602012987681</updated>
+    </task>
+    <task id="LOCAL-00083" summary="OPENGRAPH !">
+      <created>1602013471730</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1602013471730</updated>
+    </task>
+    <task id="LOCAL-00084" summary="added likedgenres table creation">
+      <created>1602078088513</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1602078088514</updated>
+    </task>
+    <task id="LOCAL-00085" summary="ajouter =&gt; enlever">
+      <created>1602078701642</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1602078701642</updated>
+    </task>
+    <task id="LOCAL-00086" summary="login error message">
+      <created>1602079227718</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1602079227718</updated>
+    </task>
+    <task id="LOCAL-00087" summary="login error message">
+      <created>1602079247362</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1602079247362</updated>
+    </task>
+    <task id="LOCAL-00088" summary="navbar links changes according to login status">
+      <created>1602079486469</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1602079486469</updated>
+    </task>
+    <task id="LOCAL-00089" summary="button styling">
+      <created>1602080225191</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1602080225191</updated>
+    </task>
+    <task id="LOCAL-00090" summary="navbar changes color depending on page">
+      <created>1602162014712</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1602162014713</updated>
+    </task>
+    <task id="LOCAL-00091" summary="added names on route">
+      <created>1602243943451</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1602243943452</updated>
+    </task>
+    <task id="LOCAL-00092" summary="getTrackArt">
+      <created>1602246314667</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1602246314667</updated>
+    </task>
+    <task id="LOCAL-00093" summary="flashed data and @property">
+      <created>1602247290606</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1602247290606</updated>
+    </task>
+    <task id="LOCAL-00094" summary="DARK MODE">
+      <created>1602348800629</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1602348800629</updated>
+    </task>
+    <task id="LOCAL-00095" summary="removed useless method">
+      <created>1602349118125</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1602349118125</updated>
+    </task>
+    <task id="LOCAL-00096" summary="added cookie consent">
+      <created>1602357634447</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1602357634448</updated>
+    </task>
+    <task id="LOCAL-00097" summary="modified and styled cookie consent box">
+      <created>1602358085365</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1602358085365</updated>
+    </task>
+    <task id="LOCAL-00098" summary="restyled cookieConsent">
+      <created>1602408109382</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1602408109383</updated>
+    </task>
+    <task id="LOCAL-00099" summary="cookie consent changes">
+      <created>1602425379524</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1602425379524</updated>
+    </task>
+    <task id="LOCAL-00100" summary="spotify icon on listen link">
+      <created>1602425558521</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1602425558521</updated>
+    </task>
+    <task id="LOCAL-00101" summary="changed profile design/content">
+      <created>1602427189173</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1602427189173</updated>
+    </task>
+    <task id="LOCAL-00102" summary="design profile modifications">
+      <created>1602429771884</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1602429771885</updated>
+    </task>
+    <task id="LOCAL-00103" summary="cursor pointer on #closeMenu">
+      <created>1602430791660</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1602430791660</updated>
+    </task>
+    <task id="LOCAL-00104" summary="link in cookieConsent modal">
+      <created>1602435863584</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1602435863585</updated>
+    </task>
+    <task id="LOCAL-00105" summary="fixed typo">
+      <created>1602440276610</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1602440276610</updated>
+    </task>
+    <task id="LOCAL-00106" summary="button is disabled by default on login page, but you need to tick the 'I agree to usage terms to use it'">
+      <created>1602443053711</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1602443053711</updated>
+    </task>
+    <task id="LOCAL-00107" summary="moved close GPDR closer to txt">
+      <created>1602530545589</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1602530545590</updated>
+    </task>
+    <task id="LOCAL-00108" summary="changed colors gpdr consent">
+      <created>1602533459536</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1602533459536</updated>
+    </task>
+    <option name="localTasksCounter" value="109" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -607,32 +624,32 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="account settings" />
-    <MESSAGE value="remove genres" />
-    <MESSAGE value="remove genres optimisation and adding to route" />
-    <MESSAGE value="addkeyword js code" />
-    <MESSAGE value="route" />
-    <MESSAGE value="small mistake, incorrect id to add genre" />
-    <MESSAGE value="edited removeFavouriteMusic" />
-    <MESSAGE value="columns for settings" />
-    <MESSAGE value="newMusicInput" />
-    <MESSAGE value="checking user ID in profile.blade.php for params" />
-    <MESSAGE value="addmusic js" />
-    <MESSAGE value="check if music exists" />
-    <MESSAGE value="added jquery as a lib" />
-    <MESSAGE value="changed gitignore" />
-    <MESSAGE value="home link in navbar" />
-    <MESSAGE value="REMOVE TRACK DONE" />
-    <MESSAGE value="remove track js" />
-    <MESSAGE value="Remember Me" />
-    <MESSAGE value="hero" />
-    <MESSAGE value="created footer" />
-    <MESSAGE value="created legal and about pages" />
-    <MESSAGE value="created usage" />
-    <MESSAGE value="legal, usage and about routes" />
-    <MESSAGE value="started working on about page" />
-    <MESSAGE value="about page finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="about page finished" />
+    <MESSAGE value="OPENGRAPH !" />
+    <MESSAGE value="added likedgenres table creation" />
+    <MESSAGE value="ajouter =&gt; enlever" />
+    <MESSAGE value="login error message" />
+    <MESSAGE value="navbar links changes according to login status" />
+    <MESSAGE value="button styling" />
+    <MESSAGE value="navbar changes color depending on page" />
+    <MESSAGE value="added names on route" />
+    <MESSAGE value="getTrackArt" />
+    <MESSAGE value="flashed data and @property" />
+    <MESSAGE value="DARK MODE" />
+    <MESSAGE value="removed useless method" />
+    <MESSAGE value="added cookie consent" />
+    <MESSAGE value="modified and styled cookie consent box" />
+    <MESSAGE value="restyled cookieConsent" />
+    <MESSAGE value="cookie consent changes" />
+    <MESSAGE value="spotify icon on listen link" />
+    <MESSAGE value="changed profile design/content" />
+    <MESSAGE value="design profile modifications" />
+    <MESSAGE value="cursor pointer on #closeMenu" />
+    <MESSAGE value="link in cookieConsent modal" />
+    <MESSAGE value="fixed typo" />
+    <MESSAGE value="button is disabled by default on login page, but you need to tick the 'I agree to usage terms to use it'" />
+    <MESSAGE value="moved close GPDR closer to txt" />
+    <MESSAGE value="changed colors gpdr consent" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed colors gpdr consent" />
   </component>
   <component name="WindowStateProjectService">
     <state x="742" y="232" key="#CLI_Interpreters" timestamp="1601636469208">
@@ -659,86 +676,161 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="313" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601636529949" />
-    <state width="1877" height="228" key="GridCell.Tab.0.bottom" timestamp="1601984102070">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1061" height="191" key="GridCell.Tab.0.bottom" timestamp="1603537096751">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601906172230" />
+    <state width="1877" height="191" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1280.204.1280.984/1920.153.1920.1040@0.0.1920.1040" timestamp="1602847957278" />
+    <state width="1061" height="191" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603537096751" />
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601906631313" />
+    <state width="1325" height="207" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.155.1920.1040@0.0.1920.1040" timestamp="1602443486362" />
+    <state width="1621" height="205" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.155.1920.1040@1920.155.1920.1040" timestamp="1602586828491" />
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.418.1920.1040@0.0.1920.1040" timestamp="1601922422420" />
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.418.1920.1040@1920.418.1920.1040" timestamp="1601917252661" />
-    <state width="1877" height="228" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.418.1920.1050@0.0.1920.1050" timestamp="1601984102070" />
-    <state width="1877" height="228" key="GridCell.Tab.0.center" timestamp="1601984102070">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1877" height="227" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.155.1920.1050@0.0.1920.1050" timestamp="1602077774138" />
+    <state width="1877" height="227" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.155.1920.1050@1920.155.1920.1050" timestamp="1602080346360" />
+    <state width="635" height="210" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.418.1920.1050@0.0.1920.1050" timestamp="1601996241463" />
+    <state width="635" height="210" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.418.1920.1050@1920.418.1920.1050" timestamp="1602000528921" />
+    <state width="1061" height="191" key="GridCell.Tab.0.center" timestamp="1603537096751">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601906172229" />
+    <state width="1877" height="191" key="GridCell.Tab.0.center/0.0.1920.1040/-1280.204.1280.984/1920.153.1920.1040@0.0.1920.1040" timestamp="1602847957277" />
+    <state width="1061" height="191" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603537096751" />
     <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601906631312" />
+    <state width="1325" height="207" key="GridCell.Tab.0.center/0.0.1920.1040/1920.155.1920.1040@0.0.1920.1040" timestamp="1602443486361" />
+    <state width="1621" height="205" key="GridCell.Tab.0.center/0.0.1920.1040/1920.155.1920.1040@1920.155.1920.1040" timestamp="1602586828491" />
     <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.418.1920.1040@0.0.1920.1040" timestamp="1601922422420" />
     <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.418.1920.1040@1920.418.1920.1040" timestamp="1601917252661" />
-    <state width="1877" height="228" key="GridCell.Tab.0.center/0.0.1920.1050/1920.418.1920.1050@0.0.1920.1050" timestamp="1601984102070" />
-    <state width="1877" height="228" key="GridCell.Tab.0.left" timestamp="1601984102070">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1877" height="227" key="GridCell.Tab.0.center/0.0.1920.1050/1920.155.1920.1050@0.0.1920.1050" timestamp="1602077774137" />
+    <state width="1877" height="227" key="GridCell.Tab.0.center/0.0.1920.1050/1920.155.1920.1050@1920.155.1920.1050" timestamp="1602080346360" />
+    <state width="635" height="210" key="GridCell.Tab.0.center/0.0.1920.1050/1920.418.1920.1050@0.0.1920.1050" timestamp="1601996241463" />
+    <state width="635" height="210" key="GridCell.Tab.0.center/0.0.1920.1050/1920.418.1920.1050@1920.418.1920.1050" timestamp="1602000528921" />
+    <state width="1061" height="191" key="GridCell.Tab.0.left" timestamp="1603537096751">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601906172229" />
+    <state width="1877" height="191" key="GridCell.Tab.0.left/0.0.1920.1040/-1280.204.1280.984/1920.153.1920.1040@0.0.1920.1040" timestamp="1602847957277" />
+    <state width="1061" height="191" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603537096751" />
     <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601906631312" />
+    <state width="1325" height="207" key="GridCell.Tab.0.left/0.0.1920.1040/1920.155.1920.1040@0.0.1920.1040" timestamp="1602443486361" />
+    <state width="1621" height="205" key="GridCell.Tab.0.left/0.0.1920.1040/1920.155.1920.1040@1920.155.1920.1040" timestamp="1602586828491" />
     <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.418.1920.1040@0.0.1920.1040" timestamp="1601922422419" />
     <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.418.1920.1040@1920.418.1920.1040" timestamp="1601917252661" />
-    <state width="1877" height="228" key="GridCell.Tab.0.left/0.0.1920.1050/1920.418.1920.1050@0.0.1920.1050" timestamp="1601984102070" />
-    <state width="1877" height="228" key="GridCell.Tab.0.right" timestamp="1601984102070">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1877" height="227" key="GridCell.Tab.0.left/0.0.1920.1050/1920.155.1920.1050@0.0.1920.1050" timestamp="1602077774137" />
+    <state width="1877" height="227" key="GridCell.Tab.0.left/0.0.1920.1050/1920.155.1920.1050@1920.155.1920.1050" timestamp="1602080346360" />
+    <state width="635" height="210" key="GridCell.Tab.0.left/0.0.1920.1050/1920.418.1920.1050@0.0.1920.1050" timestamp="1601996241463" />
+    <state width="635" height="210" key="GridCell.Tab.0.left/0.0.1920.1050/1920.418.1920.1050@1920.418.1920.1050" timestamp="1602000528921" />
+    <state width="1061" height="191" key="GridCell.Tab.0.right" timestamp="1603537096751">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601906172230" />
+    <state width="1877" height="191" key="GridCell.Tab.0.right/0.0.1920.1040/-1280.204.1280.984/1920.153.1920.1040@0.0.1920.1040" timestamp="1602847957278" />
+    <state width="1061" height="191" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603537096751" />
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601906631312" />
+    <state width="1325" height="207" key="GridCell.Tab.0.right/0.0.1920.1040/1920.155.1920.1040@0.0.1920.1040" timestamp="1602443486361" />
+    <state width="1621" height="205" key="GridCell.Tab.0.right/0.0.1920.1040/1920.155.1920.1040@1920.155.1920.1040" timestamp="1602586828491" />
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.418.1920.1040@0.0.1920.1040" timestamp="1601922422420" />
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.418.1920.1040@1920.418.1920.1040" timestamp="1601917252661" />
-    <state width="1877" height="228" key="GridCell.Tab.0.right/0.0.1920.1050/1920.418.1920.1050@0.0.1920.1050" timestamp="1601984102070" />
+    <state width="1877" height="227" key="GridCell.Tab.0.right/0.0.1920.1050/1920.155.1920.1050@0.0.1920.1050" timestamp="1602077774138" />
+    <state width="1877" height="227" key="GridCell.Tab.0.right/0.0.1920.1050/1920.155.1920.1050@1920.155.1920.1050" timestamp="1602080346360" />
+    <state width="635" height="210" key="GridCell.Tab.0.right/0.0.1920.1050/1920.418.1920.1050@0.0.1920.1050" timestamp="1601996241463" />
+    <state width="635" height="210" key="GridCell.Tab.0.right/0.0.1920.1050/1920.418.1920.1050@1920.418.1920.1050" timestamp="1602000528921" />
+    <state width="635" height="325" key="GridCell.Tab.1.bottom" timestamp="1601997580136">
+      <screen x="1920" y="418" width="1920" height="1050" />
+    </state>
+    <state width="635" height="325" key="GridCell.Tab.1.bottom/0.0.1920.1050/1920.418.1920.1050@1920.418.1920.1050" timestamp="1601997580136" />
+    <state width="635" height="325" key="GridCell.Tab.1.center" timestamp="1601997580135">
+      <screen x="1920" y="418" width="1920" height="1050" />
+    </state>
+    <state width="635" height="325" key="GridCell.Tab.1.center/0.0.1920.1050/1920.418.1920.1050@1920.418.1920.1050" timestamp="1601997580135" />
+    <state width="635" height="325" key="GridCell.Tab.1.left" timestamp="1601997580135">
+      <screen x="1920" y="418" width="1920" height="1050" />
+    </state>
+    <state width="635" height="325" key="GridCell.Tab.1.left/0.0.1920.1050/1920.418.1920.1050@1920.418.1920.1050" timestamp="1601997580135" />
+    <state width="635" height="325" key="GridCell.Tab.1.right" timestamp="1601997580135">
+      <screen x="1920" y="418" width="1920" height="1050" />
+    </state>
+    <state width="635" height="325" key="GridCell.Tab.1.right/0.0.1920.1050/1920.418.1920.1050@1920.418.1920.1050" timestamp="1601997580135" />
+    <state width="635" height="325" key="GridCell.Tab.2.bottom" timestamp="1601997580136">
+      <screen x="1920" y="418" width="1920" height="1050" />
+    </state>
+    <state width="635" height="325" key="GridCell.Tab.2.bottom/0.0.1920.1050/1920.418.1920.1050@1920.418.1920.1050" timestamp="1601997580136" />
+    <state width="635" height="325" key="GridCell.Tab.2.center" timestamp="1601997580136">
+      <screen x="1920" y="418" width="1920" height="1050" />
+    </state>
+    <state width="635" height="325" key="GridCell.Tab.2.center/0.0.1920.1050/1920.418.1920.1050@1920.418.1920.1050" timestamp="1601997580136" />
+    <state width="635" height="325" key="GridCell.Tab.2.left" timestamp="1601997580136">
+      <screen x="1920" y="418" width="1920" height="1050" />
+    </state>
+    <state width="635" height="325" key="GridCell.Tab.2.left/0.0.1920.1050/1920.418.1920.1050@1920.418.1920.1050" timestamp="1601997580136" />
+    <state width="635" height="325" key="GridCell.Tab.2.right" timestamp="1601997580136">
+      <screen x="1920" y="418" width="1920" height="1050" />
+    </state>
+    <state width="635" height="325" key="GridCell.Tab.2.right/0.0.1920.1050/1920.418.1920.1050@1920.418.1920.1050" timestamp="1601997580136" />
     <state x="2714" y="443" key="NewPhpFileDialog" timestamp="1601565788544">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2714" y="443" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601565788544" />
-    <state x="787" y="222" key="RollbackChangesDialog" timestamp="1601904607099">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2707" y="377" key="RollbackChangesDialog" timestamp="1602424905120">
+      <screen x="1920" y="155" width="1920" height="1040" />
     </state>
     <state x="787" y="222" key="RollbackChangesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601904607099" />
-    <state x="1965" y="154" key="SettingsEditor" timestamp="1601887796053">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="787" y="222" key="RollbackChangesDialog/0.0.1920.1040/1920.155.1920.1040@0.0.1920.1040" timestamp="1602357619239" />
+    <state x="2707" y="377" key="RollbackChangesDialog/0.0.1920.1040/1920.155.1920.1040@1920.155.1920.1040" timestamp="1602424905120" />
+    <state x="663" y="211" width="998" height="726" key="SettingsEditor" timestamp="1602431894250">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1982" y="138" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601886467365" />
     <state x="1965" y="154" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601887796053" />
+    <state x="663" y="211" key="SettingsEditor/0.0.1920.1040/1920.155.1920.1040@0.0.1920.1040" timestamp="1602431894250" />
+    <state x="2583" y="350" width="998" height="726" key="SettingsEditor/0.0.1920.1040/1920.155.1920.1040@1920.155.1920.1040" timestamp="1602345664470" />
+    <state x="663" y="213" key="SettingsEditor/0.0.1920.1050/1920.418.1920.1050@1920.418.1920.1050" timestamp="1602000029565" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1601580511873">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601580511873" />
-    <state x="464" y="248" key="Vcs.Push.Dialog.v2" timestamp="1601977338865">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="2384" y="401" key="Vcs.Push.Dialog.v2" timestamp="1602533467888">
+      <screen x="1920" y="155" width="1920" height="1040" />
     </state>
     <state x="464" y="246" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601819520322" />
     <state x="2384" y="246" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601890398869" />
-    <state x="464" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.418.1920.1050@0.0.1920.1050" timestamp="1601977338865" />
-    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601905267032">
+    <state x="464" y="246" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.155.1920.1040@0.0.1920.1040" timestamp="1602430796495" />
+    <state x="2384" y="401" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.155.1920.1040@1920.155.1920.1040" timestamp="1602533467888" />
+    <state x="464" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.155.1920.1050@0.0.1920.1050" timestamp="1602078097137" />
+    <state x="2384" y="403" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.155.1920.1050@1920.155.1920.1050" timestamp="1602080241076" />
+    <state x="464" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.418.1920.1050@0.0.1920.1050" timestamp="1601989424785" />
+    <state x="2384" y="666" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.418.1920.1050@1920.418.1920.1050" timestamp="1602000060585" />
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602161381615">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601905267031" />
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.155.1920.1040@0.0.1920.1040" timestamp="1602161381615" />
     <state x="2085" y="52" width="1419" height="849" key="dock-window-1" timestamp="1601903538345">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2085" y="52" width="1419" height="849" key="dock-window-1/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601903538345" />
     <state x="1834" y="214" width="1893" height="731" key="dock-window-1/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601642869755" />
-    <state x="667" y="119" width="585" height="801" key="find.popup" timestamp="1601900914054">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2587" y="274" width="585" height="801" key="find.popup" timestamp="1602440261189">
+      <screen x="1920" y="155" width="1920" height="1040" />
     </state>
     <state x="667" y="119" width="585" height="801" key="find.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601900914054" />
-    <state x="616" y="242" key="run.anything.popup" timestamp="1601976596600">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="2587" y="274" width="585" height="801" key="find.popup/0.0.1920.1040/1920.155.1920.1040@1920.155.1920.1040" timestamp="1602440261189" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1602357541063">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="2536" y="240" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601890389749" />
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/1920.155.1920.1040@0.0.1920.1040" timestamp="1602357541063" />
     <state x="616" y="242" key="run.anything.popup/0.0.1920.1050/1920.418.1920.1050@0.0.1920.1050" timestamp="1601976596600" />
-    <state x="623" y="227" width="672" height="685" key="search.everywhere.popup" timestamp="1601984472302">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1605372555987">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601906098280" />
+    <state x="623" y="225" width="672" height="679" key="search.everywhere.popup/0.0.1920.1040/-1280.204.1280.984/1920.153.1920.1040@0.0.1920.1040" timestamp="1602847513372" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605372555987" />
     <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601890535158" />
+    <state x="623" y="225" width="672" height="679" key="search.everywhere.popup/0.0.1920.1040/1920.155.1920.1040@0.0.1920.1040" timestamp="1602357783199" />
+    <state x="2543" y="380" width="672" height="679" key="search.everywhere.popup/0.0.1920.1040/1920.155.1920.1040@1920.155.1920.1040" timestamp="1602530604986" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.418.1920.1040@0.0.1920.1040" timestamp="1601922173012" />
     <state x="2543" y="643" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.418.1920.1040@1920.418.1920.1040" timestamp="1601916996941" />
-    <state x="623" y="227" width="672" height="685" key="search.everywhere.popup/0.0.1920.1050/1920.418.1920.1050@0.0.1920.1050" timestamp="1601984472302" />
+    <state x="623" y="227" width="672" height="685" key="search.everywhere.popup/0.0.1920.1050/1920.155.1920.1050@0.0.1920.1050" timestamp="1602077760685" />
+    <state x="2543" y="382" width="672" height="685" key="search.everywhere.popup/0.0.1920.1050/1920.155.1920.1050@1920.155.1920.1050" timestamp="1602080030751" />
+    <state x="623" y="227" width="672" height="685" key="search.everywhere.popup/0.0.1920.1050/1920.418.1920.1050@0.0.1920.1050" timestamp="1601989107749" />
+    <state x="2543" y="645" width="672" height="685" key="search.everywhere.popup/0.0.1920.1050/1920.418.1920.1050@1920.418.1920.1050" timestamp="1602000520642" />
   </component>
 </project>
