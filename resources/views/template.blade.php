@@ -65,13 +65,20 @@
     <footer id="footer" class="aufond">
         <div class="container">
             <div class="row">
-                <div class="col-md-4 footerSec"><p class="paragraph">© Benoît Arnoult - Réalisé dans le cadre d'une candidature à un poste de développeur web.</p></div>
-                <div class="col-md-4 footerSec">
+                <div class="footerSec col-md-12"><p class="paragraph">© Benoît Arnoult - Réalisé dans le cadre d'une candidature à un poste de développeur web.</p></div>
+                <hr>
+            </div>
+        </div>
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-6 footerSec">
                     <p class="paragraph"><a href="/profiles">Les Profils</a></p>
                     <p class="paragraph"><a href="/login">Se connecter</a></p>
                     <p class="paragraph"><a href="/register">S'inscire</a></p>
                 </div>
-                <div class="col-md-4 footerSec">
+                <div class="col-md-6 footerSec">
                     <p class="paragraph"><a href="/about">A propos</a></p>
                     <p class="paragraph"><a href="/legal">Mentions Légales</a></p>
                     <p class="paragraph"><a href="/usage-terms">CGU</a></p>
