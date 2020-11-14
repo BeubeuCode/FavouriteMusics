@@ -65,7 +65,7 @@
     <footer id="footer" class="aufond">
         <div class="container">
             <div class="row">
-                <div class="footerSec col-md-12"><p class="paragraph">© Benoît Arnoult - Réalisé dans le cadre d'une candidature à un poste de développeur web.</p></div>
+                <div class="footerSec col-md-12"><p class="paragraph">© Benoît Arnoult, Service proposé à des fins de démonstration</p></div>
                 <hr>
             </div>
         </div>
